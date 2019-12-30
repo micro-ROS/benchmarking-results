@@ -1,0 +1,782 @@
+alloc 408 0x20009470
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A3E nx_start
+0x08003316 nxsig_initialize
+0x08005556 mm_malloc
+alloc 216 0x20009600
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A3E nx_start
+0x08003332 nxsig_initialize
+0x08005556 mm_malloc
+alloc 344 0x200096D0
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A3E nx_start
+0x08003354 nxsig_initialize
+0x080032B4 nxsig_alloc_actionblock
+0x08005556 mm_malloc
+alloc 280 0x20009820
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A3E nx_start
+0x0800335C nxsig_initialize
+0x08005556 mm_malloc
+alloc 152 0x20009930
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A3E nx_start
+0x08003380 nxsig_initialize
+0x08005556 mm_malloc
+alloc 184 0x200099C0
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A46 nx_start
+0x0803832C nxmq_initialize
+0x08005556 mm_malloc
+alloc 344 0x20009A70
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A46 nx_start
+0x08038336 nxmq_initialize
+0x08005556 mm_malloc
+alloc 312 0x20009BC0
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A46 nx_start
+0x080382CC nxmq_alloc_desblock
+0x08005556 mm_malloc
+alloc 56 0x10000010
+0x080001E2 __start
+0x08001A5A nx_start
+0x080057BE up_initialize
+0x08032B4C register_driver
+0x08034548 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x10000040
+0x080001E2 __start
+0x08001A5A nx_start
+0x080057BE up_initialize
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x10000070
+0x080001E2 __start
+0x08001A5A nx_start
+0x080057C2 up_initialize
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x100000A0
+0x08001A5A nx_start
+0x080057C6 up_initialize
+0x08005FE2 up_serialinit
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x100000D0
+0x080057CC up_initialize
+0x08003FD8 syslog_initialize
+0x080042D6 ramlog_syslog_channel
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x10000100
+0x08001A5A nx_start
+0x080057CC up_initialize
+0x08003FDE syslog_initialize
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x10000130
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A6A nx_start
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 392 0x10000400
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B48 nx_bringup
+0x080020EC work_hpstart
+0x08001D8A kthread_create
+0x08001C6C nxthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x10000580
+0x08001A8A nx_start
+0x08001B48 nx_bringup
+0x080020EC work_hpstart
+0x08001D8A kthread_create
+0x08001C78 nxthread_create
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 2072 0x10000850
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B48 nx_bringup
+0x080020EC work_hpstart
+0x08001D8A kthread_create
+0x08001C90 nxthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 392 0x10001060
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B4C nx_bringup
+0x08002178 work_lpstart
+0x08001D8A kthread_create
+0x08001C6C nxthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x100011E0
+0x08001A8A nx_start
+0x08001B4C nx_bringup
+0x08002178 work_lpstart
+0x08001D8A kthread_create
+0x08001C78 nxthread_create
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 2072 0x100014B0
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B4C nx_bringup
+0x08002178 work_lpstart
+0x08001D8A kthread_create
+0x08001C90 nxthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 392 0x10001CC0
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B5C nx_bringup
+0x08001D8A kthread_create
+0x08001C6C nxthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x10001E40
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B5C nx_bringup
+0x08001D8A kthread_create
+0x08001C78 nxthread_create
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 2072 0x10002110
+0x080008F8 unknown
+0x080001E2 __start
+0x08001A8A nx_start
+0x08001B5C nx_bringup
+0x08001D8A kthread_create
+0x08001C90 nxthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 392 0x10002920
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x08001B1C nx_start_task
+0x08001D22 nxtask_create
+0x08001C6C nxthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x10002AA0
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x08001B1C nx_start_task
+0x08001D22 nxtask_create
+0x08001C78 nxthread_create
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 2072 0x10002D70
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x08001B1C nx_start_task
+0x08001D22 nxtask_create
+0x08001C90 nxthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 408 0x10001CC0
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E0 nsh_main
+0x08008746 nsh_netinit
+0x08036CCC pthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 40 0x10001E50
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E0 nsh_main
+0x08008746 nsh_netinit
+0x08036CEA pthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 1592 0x10001E70
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E0 nsh_main
+0x08008746 nsh_netinit
+0x08036D32 pthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 696 0x100024A0
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x08008854 nsh_consolemain
+0x08008EE4 nsh_newconsole
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 760 0x10003580
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041A7E cdcacm_initialize
+0x08005556 mm_malloc
+alloc 56 0x10002750
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B10 cdcacm_initialize
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 56 0x10002780
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B26 cdcacm_initialize
+0x08032B4C register_driver
+0x08034580 inode_reserve
+0x080344C2 inode_alloc
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 40 0x100027B0
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x080415D4 cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 88 0x100027D0
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x080415D4 cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10002820
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 88 0x10002840
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10002890
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 88 0x100028B0
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10002900
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 88 0x10003870
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x100038C0
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 88 0x100038E0
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x08041662 cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10003930
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 120 0x10003950
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x100039C0
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 120 0x100039E0
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10003A50
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 120 0x10003A70
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 40 0x10003AE0
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EAE cdcacm_allocreq
+0x080065D2 stm32_ep_allocreq
+0x08005556 mm_malloc
+alloc 120 0x10003B00
+0x080085E8 nsh_main
+0x08008870 nsh_consolemain
+0x08039B6A boardctl
+0x08041B34 cdcacm_initialize
+0x08007604 usbdev_register
+0x0804168C cdcacm_bind
+0x08040EBA cdcacm_allocreq
+0x08005556 mm_malloc
+alloc 88 0x10003B70
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x08008874 nsh_consolemain
+0x08008820 nsh_nullstdio
+0x080087DA nsh_configstdio
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10003BC0
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x08008874 nsh_consolemain
+0x08008820 nsh_nullstdio
+0x080087E2 nsh_configstdio
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10003C10
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x08008874 nsh_consolemain
+0x08008820 nsh_nullstdio
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10001CC0
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x080088B2 nsh_consolemain
+0x080087DA nsh_configstdio
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10001D10
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x080088B2 nsh_consolemain
+0x080087E2 nsh_configstdio
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10001D60
+0x00000000 <reached end of unwind table>
+0x08002054 nxtask_start
+0x080085E8 nsh_main
+0x080088B2 nsh_consolemain
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 392 0x10001DB0
+0x0800C888 nsh_builtin
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C6C nxthread_create
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 728 0x10001F30
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C78 nxthread_create
+0x08002206 group_allocate
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 88 0x10002200
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C82 nxthread_create
+0x08002F4A group_setupstreams
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x10002250
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C82 nxthread_create
+0x08002F54 group_setupstreams
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 88 0x100022A0
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C82 nxthread_create
+0x08002F5E group_setupstreams
+0x08032ACE fs_fdopen
+0x08005556 mm_malloc
+alloc 65016 0x20009CF0
+0x0800C888 nsh_builtin
+0x0800DA92 exec_builtin
+0x08037E38 task_spawn
+0x08037D6C nxtask_spawn_exec
+0x08001D22 nxtask_create
+0x08001C90 nxthread_create
+0x0800572E up_create_stack
+0x08005556 mm_malloc
+alloc 88 0x100022F0
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x0800FCC8 rcl_init_options_init
+0x08005556 mm_malloc
+alloc 56 0x10002340
+0x20009460 unknown
+0x08037914 sem_wait
+0x0801609A rcutils_logging_initialize_with_
+0x0801791E rcutils_string_map_init
+0x08005556 mm_malloc
+alloc 72 0x10002370
+0x00000000 <reached end of unwind table>
+0x0800F68A rcl_init
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 88 0x100023B0
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x0800FCC8 rcl_init_options_init
+0x08005556 mm_malloc
+alloc 24 0x10002400
+0x00000000 <reached end of unwind table>
+0x0800F7B6 rcl_init
+0x080055AA mm_zalloc
+0x08005556 mm_malloc
+alloc 40 0x10002410
+0x00000000 <reached end of unwind table>
+0x0800F7EA rcl_init
+0x08005556 mm_malloc
+alloc 72 0x10002430
+0x206C6372 unknown
+0x0802218A rcl_parse_arguments
+0x08005556 mm_malloc
+alloc 24 0x10002470
+0x206C6372 unknown
+0x080221F6 rcl_parse_arguments
+0x08005556 mm_malloc
+alloc 24 0x10002480
+0x206C6372 unknown
+0x080222BE rcl_parse_arguments
+0x08005556 mm_malloc
+alloc 24 0x10002490
+0x206C6372 unknown
+0x080222D8 rcl_parse_arguments
+0x08005556 mm_malloc
+alloc 24 0x20019AE0
+0x08036886 unknown
+0x08005556 mm_malloc
+alloc 1048 0x20019AF0
+0x080368A4 unknown
+0x08005556 mm_malloc
+alloc 24 0x20019F00
+0x08036886 unknown
+0x08005556 mm_malloc
+alloc 1048 0x20019F10
+0x08036886 unknown
+0x08005556 mm_malloc
+alloc 56 0x2001A320
+0x00000000 <reached end of unwind table>
+0x08021BBA _rcl_parse_remap_rule
+0x08005556 mm_malloc
+alloc 72 0x2001A350
+0x00000000 <reached end of unwind table>
+0x08021C04 _rcl_parse_remap_rule
+0x08023C42 rcl_lexer_lookahead2_init
+0x08005556 mm_malloc
+alloc 72 0x2001A320
+0x65646F4E unknown
+0x0000000A __start
+0x0801070E rcl_logging_rosout_init
+0x0801542E rcutils_hash_map_init
+0x08005556 mm_malloc
+alloc 120 0x2001A360
+0x65646F4E unknown
+0x0000000A __start
+0x0801070E rcl_logging_rosout_init
+0x08015474 rcutils_hash_map_init
+0x080152B8 ñçhash_map_allocate_new_map
+0x08005556 mm_malloc
+alloc 72 0x2001A3D0
+0x5EAD183A unknown
+0x0801154E rcl_node_init
+0x08005556 mm_malloc
+alloc 40 0x2001A410
+0x5EAD183A unknown
+0x0801166A rcl_node_init
+0x08014FF2 rcutils_format_string_limit
+0x08005556 mm_malloc
+alloc 40 0x2001A430
+0x5EAD183A unknown
+0x08011678 rcl_node_init
+0x0801119E rcl_create_node_logger_name
+0x0801756A utils_strdup
+0x0801750C rcutils_strndup
+0x08005556 mm_malloc
+alloc 40 0x2001A450
+0x5EAD183A unknown
+0x08011BDE rcl_node_init
+0x08018B0A create_node
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 40 0x2001A470
+0x5EAD183A unknown
+0x08011BDE rcl_node_init
+0x08018B2E create_node
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 24 0x10002490
+0x5EAD183A unknown
+0x08011BDE rcl_node_init
+0x08018B70 create_node
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 40 0x2001A490
+0x5EAD183A unknown
+0x08011CBA rcl_node_init
+0x08018E28 rmw_node_get_graph_guard_conditi
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 24 0x10002470
+0x5EAD183A unknown
+0x08011CE2 rcl_node_init
+0x08005556 mm_malloc
+alloc 56 0x2001A4B0
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x08014060 __default_zero_allocate
+0x080231BE __rcl_guard_condition_init_from_
+0x08005556 mm_malloc
+alloc 56 0x2001A4E0
+0x1D05A4B0 unknown
+0x08012822 rcl_publisher_init
+0x0801791E rcutils_string_map_init
+0x08005556 mm_malloc
+alloc 24 0x2001A510
+0x2000334C unknown
+0x08022F1A rcl_expand_topic_name
+0x08014FF2 rcutils_format_string_limit
+0x08005556 mm_malloc
+alloc 56 0x2001A4E0
+0x1D05A4B0 unknown
+0x08012A76 rcl_publisher_init
+0x0801361A rcl_remap_topic_name
+0x0801791E rcutils_string_map_init
+0x08005556 mm_malloc
+alloc 216 0x2001A520
+0x1D05A4B0 unknown
+0x08012ADC rcl_publisher_init
+0x08005556 mm_malloc
+alloc 40 0x2001A4E0
+0x1D05A4B0 unknown
+0x08012B26 rcl_publisher_init
+0x08019092 rmw_create_publisher
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 24 0x2001A500
+0x1D05A4B0 unknown
+0x08012B26 rcl_publisher_init
+0x080190A8 rmw_create_publisher
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 56 0x2001A5F0
+0x1D05A4B0 unknown
+0x08012B26 rcl_publisher_init
+0x08019136 rmw_create_publisher
+0x08024AFA create_topic
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 40 0x2001A620
+0xC94B0F9A unknown
+0x08015826 rcutils_hash_map_set
+0x08005556 mm_malloc
+alloc 24 0x2001A510
+0xC94B0F9A unknown
+0x08015838 rcutils_hash_map_set
+0x08005556 mm_malloc
+alloc 24 0x2001A640
+0xC94B0F9A unknown
+0x0801584A rcutils_hash_map_set
+0x08005556 mm_malloc
+alloc 56 0x2001A650
+0xC94B0F9A unknown
+0x08015932 rcutils_hash_map_set
+0x08015284 Æçhash_map_insert_entry
+0x08024390 rcutils_array_list_init
+0x08005556 mm_malloc
+alloc 24 0x2001A680
+0xC94B0F9A unknown
+0x08015932 rcutils_hash_map_set
+0x08015284 Æçhash_map_insert_entry
+0x080243C2 rcutils_array_list_init
+0x08005556 mm_malloc
+alloc 56 0x2001A690
+0x5A49C122 unknown
+0x08012822 rcl_publisher_init
+0x0801791E rcutils_string_map_init
+0x08005556 mm_malloc
+alloc 40 0x2001A6C0
+0x2000334C unknown
+0x08022F1A rcl_expand_topic_name
+0x08014FF2 rcutils_format_string_limit
+0x08005556 mm_malloc
+alloc 56 0x2001A690
+0x5A49C122 unknown
+0x08012A76 rcl_publisher_init
+0x0801361A rcl_remap_topic_name
+0x0801791E rcutils_string_map_init
+0x08005556 mm_malloc
+alloc 216 0x2001A6E0
+0x5A49C122 unknown
+0x08012ADC rcl_publisher_init
+0x08005556 mm_malloc
+alloc 40 0x2001A690
+0x5A49C122 unknown
+0x08012B26 rcl_publisher_init
+0x08019092 rmw_create_publisher
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 40 0x2001A7B0
+0x5A49C122 unknown
+0x08012B26 rcl_publisher_init
+0x080190A8 rmw_create_publisher
+0x08020088 rmw_allocate
+0x08005556 mm_malloc
+alloc 56 0x2001A7D0
+0x5A49C122 unknown
+0x08012B26 rcl_publisher_init
+0x08019136 rmw_create_publisher
+0x08024AFA create_topic
+0x08020088 rmw_allocate
+0x08005556 mm_malloc

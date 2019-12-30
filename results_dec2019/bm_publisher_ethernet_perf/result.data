@@ -1,0 +1,41 @@
+
+file: /uros_ws/firmware/NuttX/sched/init/nx_start.c
+function: nx_start
+hits: 618
+details: [
+	{ hits: 311, line: 876, address: 8001120},
+	{ hits: 307, line: 876, address: 8001124},
+
+]
+file: /uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_idle.c
+function: up_idle
+hits: 311
+details: [
+	{ hits: 311, line: 433, address: 80039fc},
+
+]
+file: /uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_eth.c
+function: stm32_phyread
+hits: 618
+details: [
+	{ hits: 2, line: 2980, address: 80056a8},
+	{ hits: 1, line: 2986, address: 80056aa},
+	{ hits: 1, line: 2987, address: 80056b4},
+	{ hits: 1, line: 2993, address: 80056c0},
+	{ hits: 1, line: 2997, address: 80056c6},
+	{ hits: 1, line: 3001, address: 80056ca},
+	{ hits: 58, line: 3001, address: 80056cc},
+	{ hits: 34, line: 3001, address: 80056ce},
+	{ hits: 68, line: 3001, address: 80056d0},
+	{ hits: 163, line: 3003, address: 80056d8},
+	{ hits: 31, line: 3003, address: 80056da},
+	{ hits: 68, line: 3003, address: 80056de},
+	{ hits: 1, line: 3005, address: 80056e2},
+	{ hits: 1, line: 3005, address: 80056e4},
+	{ hits: 1, line: 3014, address: 80056e8},
+	{ hits: 57, line: 3001, address: 80056ea},
+	{ hits: 33, line: 3001, address: 80056ec},
+	{ hits: 32, line: 3001, address: 80056ee},
+	{ hits: 64, line: 3001, address: 80056f0},
+
+]

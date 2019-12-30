@@ -1,0 +1,115 @@
+
+file: /uros_ws/firmware/NuttX/arch/arm/src/armv7-m/gnu/up_exception.S
+function: exception_common
+hits: 19
+details: [
+	{ hits: 2, line: 176, address: 8000724},
+	{ hits: 2, line: 180, address: 8000728},
+	{ hits: 1, line: 222, address: 800073e},
+	{ hits: 1, line: 238, address: 8000740},
+	{ hits: 2, line: 239, address: 8000744},
+	{ hits: 4, line: 241, address: 8000748},
+	{ hits: 1, line: 249, address: 800075a},
+	{ hits: 1, line: 250, address: 800075e},
+	{ hits: 1, line: 252, address: 8000762},
+	{ hits: 1, line: 262, address: 8000768},
+	{ hits: 1, line: 301, address: 800077e},
+	{ hits: 2, line: 308, address: 8000782},
+
+]
+file: /uros_ws/firmware/NuttX/arch/arm/src/common/up_mdelay.c
+function: up_mdelay
+hits: 325
+details: [
+	{ hits: 57, line: 66, address: 8000f0e},
+	{ hits: 33, line: 66, address: 8000f10},
+	{ hits: 56, line: 66, address: 8000f12},
+	{ hits: 62, line: 66, address: 8000f1c},
+	{ hits: 29, line: 66, address: 8000f1e},
+	{ hits: 24, line: 66, address: 8000f20},
+	{ hits: 64, line: 66, address: 8000f22},
+
+]
+file: /uros_ws/firmware/NuttX/sched/sched/sched_unlock.c
+function: sched_unlock
+hits: 1
+details: [
+	{ hits: 1, line: 250, address: 8001828},
+
+]
+file: /uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_eth.c
+function: stm32_phyread
+hits: 615
+details: [
+	{ hits: 1, line: 2995, address: 80055d6},
+	{ hits: 1, line: 2997, address: 80055da},
+	{ hits: 1, line: 3001, address: 80055de},
+	{ hits: 66, line: 3001, address: 80055e0},
+	{ hits: 31, line: 3001, address: 80055e2},
+	{ hits: 56, line: 3001, address: 80055e4},
+	{ hits: 166, line: 3003, address: 80055ec},
+	{ hits: 26, line: 3003, address: 80055ee},
+	{ hits: 65, line: 3003, address: 80055f2},
+	{ hits: 1, line: 3005, address: 80055f4},
+	{ hits: 2, line: 3005, address: 80055f6},
+	{ hits: 70, line: 3001, address: 80055fe},
+	{ hits: 29, line: 3001, address: 8005600},
+	{ hits: 32, line: 3001, address: 8005602},
+	{ hits: 68, line: 3001, address: 8005604},
+
+]
+file: /uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_eth.c
+function: stm32_phyinit
+hits: 1
+details: [
+	{ hits: 1, line: 3218, address: 80059c0},
+
+]
+file: /uros_ws/firmware/NuttX/sched/semaphore/sem_tickwait.c
+function: nxsem_tickwait
+hits: 8
+details: [
+	{ hits: 2, line: 88, address: 802939c},
+	{ hits: 1, line: 102, address: 80293aa},
+	{ hits: 1, line: 142, address: 80293ce},
+	{ hits: 1, line: 152, address: 80293e2},
+	{ hits: 1, line: 157, address: 80293ea},
+	{ hits: 1, line: 158, address: 80293ee},
+	{ hits: 1, line: 180, address: 802940c},
+
+]
+file: /uros_ws/firmware/NuttX/drivers/serial/serial.c
+function: uart_write
+hits: 1
+details: [
+	{ hits: 1, line: 1067, address: 802a408},
+
+]
+file: /uros_ws/firmware/NuttX/drivers/serial/serial_io.c
+function: uart_xmitchars
+hits: 7
+details: [
+	{ hits: 1, line: 70, address: 802a770},
+	{ hits: 2, line: 70, address: 802a778},
+	{ hits: 1, line: 70, address: 802a7a4},
+	{ hits: 1, line: 74, address: 802a7aa},
+	{ hits: 1, line: 74, address: 802a7b6},
+	{ hits: 1, line: 81, address: 802a7ce},
+
+]
+file: /uros_ws/firmware/NuttX/libs/libc/stdio/lib_libfwrite.c
+function: lib_fwrite
+hits: 1
+details: [
+	{ hits: 1, line: 110, address: 802d6fe},
+
+]
+file: /uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c
+function: cdcacm_fillrequest
+hits: 4
+details: [
+	{ hits: 1, line: 333, address: 80309cc},
+	{ hits: 2, line: 333, address: 80309d2},
+	{ hits: 1, line: 333, address: 80309d4},
+
+]

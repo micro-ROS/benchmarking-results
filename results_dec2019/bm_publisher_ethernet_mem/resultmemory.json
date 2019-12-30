@@ -1,0 +1,4542 @@
+{
+	"0xDEADBEEE unknown":	{
+		"file":	"??",
+		"function":	"??",
+		"line":	0,
+		"count":	34,
+		"allocated-blks":	[{
+				"count":	10,
+				"size":	24
+			}, {
+				"count":	10,
+				"size":	40
+			}, {
+				"count":	8,
+				"size":	56
+			}, {
+				"count":	2,
+				"size":	216
+			}, {
+				"count":	4,
+				"size":	72
+			}],
+		"0x0800FAE6 rcl_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/init.c",
+			"function":	"rcl_init",
+			"line":	96,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x080055AA mm_zalloc":	{
+				"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+				"function":	"mm_zalloc",
+				"line":	61,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	24
+						}]
+				}
+			}
+		},
+		"0x08022422 rcl_parse_arguments":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"rcl_parse_arguments",
+			"line":	233,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x080224EA rcl_parse_arguments":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"rcl_parse_arguments",
+			"line":	238,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x08022504 rcl_parse_arguments":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"rcl_parse_arguments",
+			"line":	243,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x08011F0E rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	321,
+			"count":	3,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}, {
+					"count":	2,
+					"size":	40
+				}],
+			"0x08018E26 create_node":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c",
+				"function":	"create_node",
+				"line":	204,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	24
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	24
+							}]
+					}
+				}
+			},
+			"0x08018DC2 create_node":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c",
+				"function":	"create_node",
+				"line":	189,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}]
+					}
+				}
+			},
+			"0x08018DE6 create_node":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c",
+				"function":	"create_node",
+				"line":	195,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}]
+					}
+				}
+			}
+		},
+		"0x08012012 rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	332,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x08012E56 rcl_publisher_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/publisher.c",
+			"function":	"rcl_publisher_init",
+			"line":	165,
+			"count":	6,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}, {
+					"count":	3,
+					"size":	40
+				}, {
+					"count":	2,
+					"size":	56
+				}],
+			"0x08019354 rmw_create_publisher":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publisher.c",
+				"function":	"rmw_create_publisher",
+				"line":	77,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}, {
+						"count":	1,
+						"size":	40
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	24
+						}, {
+							"count":	1,
+							"size":	40
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	24
+							}, {
+								"count":	1,
+								"size":	40
+							}]
+					}
+				}
+			},
+			"0x0801933E rmw_create_publisher":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publisher.c",
+				"function":	"rmw_create_publisher",
+				"line":	75,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	40
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	40
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	2,
+								"size":	40
+							}]
+					}
+				}
+			},
+			"0x080193E2 rmw_create_publisher":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_publisher.c",
+				"function":	"rmw_create_publisher",
+				"line":	127,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	56
+					}],
+				"0x08024D26 create_topic":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_microxrcedds_topic.c",
+					"function":	"create_topic",
+					"line":	50,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	56
+						}],
+					"0x080202B4 rmw_allocate":	{
+						"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+						"function":	"rmw_allocate",
+						"line":	30,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	2,
+								"size":	56
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	2,
+							"allocated-blks":	[{
+									"count":	2,
+									"size":	56
+								}]
+						}
+					}
+				}
+			}
+		},
+		"0x08015B68 rcutils_hash_map_set":	{
+			"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+			"function":	"rcutils_hash_map_set",
+			"line":	385,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x08015B7A rcutils_hash_map_set":	{
+			"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+			"function":	"rcutils_hash_map_set",
+			"line":	386,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}]
+			}
+		},
+		"0x08015C62 rcutils_hash_map_set":	{
+			"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+			"function":	"rcutils_hash_map_set",
+			"line":	401,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}, {
+					"count":	1,
+					"size":	56
+				}],
+			"0x080155B4 Æçhash_map_insert_entry":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+				"function":	"hash_map_insert_entry",
+				"line":	169,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}, {
+						"count":	1,
+						"size":	56
+					}],
+				"0x080245EE rcutils_array_list_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/array_list.c",
+					"function":	"rcutils_array_list_init",
+					"line":	80,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	24
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	24
+							}]
+					}
+				},
+				"0x080245BC rcutils_array_list_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/array_list.c",
+					"function":	"rcutils_array_list_init",
+					"line":	71,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}]
+					}
+				}
+			}
+		},
+		"0x0800FB1A rcl_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/init.c",
+			"function":	"rcl_init",
+			"line":	104,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}]
+			}
+		},
+		"0x0801199A rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	248,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x08015322 rcutils_format_string_limit":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/format_string.c",
+				"function":	"rcutils_format_string_limit",
+				"line":	55,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}]
+				}
+			}
+		},
+		"0x080119A8 rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	252,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x080114CE rcl_create_node_logger_name":	{
+				"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+				"function":	"rcl_create_node_logger_name",
+				"line":	82,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x0801789A utils_strdup":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/strdup.c",
+					"function":	"rcutils_strdup",
+					"line":	34,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x0801783C rcutils_strndup":	{
+						"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/strdup.c",
+						"function":	"rcutils_strndup",
+						"line":	43,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	40
+								}]
+						}
+					}
+				}
+			}
+		},
+		"0x08011FEA rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	329,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x080190D4 rmw_node_get_graph_guard_conditi":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_node.c",
+				"function":	"rmw_node_get_graph_guard_condition",
+				"line":	316,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x080202B4 rmw_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/allocators.c",
+					"function":	"rmw_allocate",
+					"line":	30,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}]
+					}
+				}
+			}
+		},
+		"0x08015B56 rcutils_hash_map_set":	{
+			"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+			"function":	"rcutils_hash_map_set",
+			"line":	381,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}]
+			}
+		},
+		"0x08021DE6 _rcl_parse_remap_rule":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"_rcl_parse_remap_rule",
+			"line":	1127,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	56
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}]
+			}
+		},
+		"0x08012B52 rcl_publisher_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/publisher.c",
+			"function":	"rcl_publisher_init",
+			"line":	77,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	2,
+					"size":	56
+				}],
+			"0x08017C4E rcutils_string_map_init":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/string_map.c",
+				"function":	"rcutils_string_map_init",
+				"line":	62,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	56
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	56
+						}]
+				}
+			}
+		},
+		"0x08012DA6 rcl_publisher_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/publisher.c",
+			"function":	"rcl_publisher_init",
+			"line":	136,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	2,
+					"size":	56
+				}],
+			"0x0801394A rcl_remap_topic_name":	{
+				"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/remap.c",
+				"function":	"rcl_remap_topic_name",
+				"line":	239,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	56
+					}],
+				"0x08017C4E rcutils_string_map_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/string_map.c",
+					"function":	"rcutils_string_map_init",
+					"line":	62,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	56
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	2,
+								"size":	56
+							}]
+					}
+				}
+			}
+		},
+		"0x08012E0C rcl_publisher_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/publisher.c",
+			"function":	"rcl_publisher_init",
+			"line":	157,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	2,
+					"size":	216
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	216
+					}]
+			}
+		},
+		"0x0800F9BA rcl_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/init.c",
+			"function":	"rcl_init",
+			"line":	78,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	72
+				}],
+			"0x080055AA mm_zalloc":	{
+				"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+				"function":	"mm_zalloc",
+				"line":	61,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	72
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	72
+						}]
+				}
+			}
+		},
+		"0x080223B6 rcl_parse_arguments":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"rcl_parse_arguments",
+			"line":	209,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	72
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	72
+					}]
+			}
+		},
+		"0x08021E30 _rcl_parse_remap_rule":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/arguments.c",
+			"function":	"_rcl_parse_remap_rule",
+			"line":	1137,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	72
+				}],
+			"0x08023E6E rcl_lexer_lookahead2_init":	{
+				"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/lexer_lookahead.c",
+				"function":	"rcl_lexer_lookahead2_init",
+				"line":	59,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	72
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	72
+						}]
+				}
+			}
+		},
+		"0x0801187E rcl_node_init":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/node.c",
+			"function":	"rcl_node_init",
+			"line":	202,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	72
+				}],
+			"0x08005556 mm_malloc":	{
+				"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+				"function":	"backtrace_unwind",
+				"line":	64,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	72
+					}]
+			}
+		}
+	},
+	"0x08036686 unknown":	{
+		"file":	"/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039/build/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard/libgcc/../../../../../../../src/libgcc/emutls.c",
+		"function":	"emutls_alloc",
+		"line":	103,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	2,
+				"size":	24
+			}, {
+				"count":	1,
+				"size":	1048
+			}],
+		"0x08005556 mm_malloc":	{
+			"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+			"function":	"backtrace_unwind",
+			"line":	64,
+			"count":	3,
+			"allocated-blks":	[{
+					"count":	2,
+					"size":	24
+				}, {
+					"count":	1,
+					"size":	1048
+				}]
+		}
+	},
+	"0x200090D0 unknown":	{
+		"file":	"??",
+		"function":	"??",
+		"line":	0,
+		"count":	2,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	24
+			}, {
+				"count":	1,
+				"size":	40
+			}],
+		"0x08023146 rcl_expand_topic_name":	{
+			"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/expand_topic_name.c",
+			"function":	"rcl_expand_topic_name",
+			"line":	212,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	24
+				}, {
+					"count":	1,
+					"size":	40
+				}],
+			"0x08015322 rcutils_format_string_limit":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/format_string.c",
+				"function":	"rcutils_format_string_limit",
+				"line":	55,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	24
+					}, {
+						"count":	1,
+						"size":	40
+					}],
+				"0x08005556 mm_malloc":	{
+					"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+					"function":	"backtrace_unwind",
+					"line":	64,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	24
+						}, {
+							"count":	1,
+							"size":	40
+						}]
+				}
+			}
+		}
+	},
+	"0x08008978 nsh_consolemain":	{
+		"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+		"function":	"nsh_consolemain",
+		"line":	311,
+		"count":	12,
+		"allocated-blks":	[{
+				"count":	10,
+				"size":	40
+			}, {
+				"count":	2,
+				"size":	56
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x080086E0 nsh_main":	{
+				"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+				"function":	"nsh_task",
+				"line":	241,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x0800884A nsh_netinit":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_netinit.c",
+					"function":	"nsh_netinit",
+					"line":	843,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x08036AEA pthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/pthread/pthread_create.c",
+						"function":	"pthread_create",
+						"line":	294,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}],
+						"0x080055AA mm_zalloc":	{
+							"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+							"function":	"mm_zalloc",
+							"line":	61,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	40
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	40
+									}]
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08039812 boardctl":	{
+			"file":	"/uros_ws/firmware/NuttX/configs/boardctl.c",
+			"function":	"boardctl_usbdevctrl",
+			"line":	106,
+			"count":	11,
+			"allocated-blks":	[{
+					"count":	9,
+					"size":	40
+				}, {
+					"count":	2,
+					"size":	56
+				}],
+			"0x08041520 cdcacm_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+				"function":	"cdcacm_initialize",
+				"line":	3067,
+				"count":	9,
+				"allocated-blks":	[{
+						"count":	9,
+						"size":	40
+					}],
+				"0x08007704 usbdev_register":	{
+					"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_otgfsdev.c",
+					"function":	"usbdev_register",
+					"line":	5641,
+					"count":	9,
+					"allocated-blks":	[{
+							"count":	9,
+							"size":	40
+						}],
+					"0x08040FC0 cdcacm_bind":	{
+						"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+						"function":	"cdcacm_bind",
+						"line":	1336,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}],
+						"0x08040896 cdcacm_allocreq":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_allocreq",
+							"line":	788,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	40
+								}],
+							"0x080066D2 stm32_ep_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_otgfsdev.c",
+								"function":	"stm32_ep_allocreq",
+								"line":	4295,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	40
+										}]
+								}
+							}
+						}
+					},
+					"0x0804104E cdcacm_bind":	{
+						"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+						"function":	"cdcacm_bind",
+						"line":	1403,
+						"count":	4,
+						"allocated-blks":	[{
+								"count":	4,
+								"size":	40
+							}],
+						"0x08040896 cdcacm_allocreq":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_allocreq",
+							"line":	788,
+							"count":	4,
+							"allocated-blks":	[{
+									"count":	4,
+									"size":	40
+								}],
+							"0x080066D2 stm32_ep_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_otgfsdev.c",
+								"function":	"stm32_ep_allocreq",
+								"line":	4295,
+								"count":	4,
+								"allocated-blks":	[{
+										"count":	4,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	4,
+									"allocated-blks":	[{
+											"count":	4,
+											"size":	40
+										}]
+								}
+							}
+						}
+					},
+					"0x08041078 cdcacm_bind":	{
+						"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+						"function":	"cdcacm_bind",
+						"line":	1440,
+						"count":	4,
+						"allocated-blks":	[{
+								"count":	4,
+								"size":	40
+							}],
+						"0x08040896 cdcacm_allocreq":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_allocreq",
+							"line":	788,
+							"count":	4,
+							"allocated-blks":	[{
+									"count":	4,
+									"size":	40
+								}],
+							"0x080066D2 stm32_ep_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_otgfsdev.c",
+								"function":	"stm32_ep_allocreq",
+								"line":	4295,
+								"count":	4,
+								"allocated-blks":	[{
+										"count":	4,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	4,
+									"allocated-blks":	[{
+											"count":	4,
+											"size":	40
+										}]
+								}
+							}
+						}
+					}
+				}
+			},
+			"0x080414FC cdcacm_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+				"function":	"cdcacm_classobject",
+				"line":	2979,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			},
+			"0x08041512 cdcacm_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+				"function":	"cdcacm_classobject",
+				"line":	2991,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0801AF48 uxr_create_session":	{
+		"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+		"function":	"uxr_create_session",
+		"line":	125,
+		"count":	1,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	40
+			}],
+		"0x0801ADFE wait_session_status.constprop.4":	{
+			"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+			"function":	"wait_session_status",
+			"line":	417,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	40
+				}],
+			"0x0801AB72 listen_message":	{
+				"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+				"function":	"listen_message",
+				"line":	357,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	40
+					}],
+				"0x0801BF58 recv_udp_msg":	{
+					"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport.c",
+					"function":	"recv_udp_msg",
+					"line":	47,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	40
+						}],
+					"0x0801C14C uxr_read_udp_data_platform":	{
+						"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport_linux.c",
+						"function":	"uxr_read_udp_data_platform",
+						"line":	59,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	40
+							}],
+						"0x08032056 poll":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_poll.c",
+							"function":	"poll_setup",
+							"line":	188,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	40
+								}],
+							"0x0802C7F0 udp_pollsetup":	{
+								"file":	"/uros_ws/firmware/NuttX/net/udp/udp_netpoll.c",
+								"function":	"udp_pollsetup",
+								"line":	308,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	40
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0801B470 uxr_run_session_until_all_status":	{
+		"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+		"function":	"uxr_run_session_until_all_status",
+		"line":	216,
+		"count":	36,
+		"allocated-blks":	[{
+				"count":	36,
+				"size":	40
+			}],
+		"0x0801ACEE listen_message_reliably":	{
+			"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+			"function":	"listen_message_reliably",
+			"line":	399,
+			"count":	36,
+			"allocated-blks":	[{
+					"count":	36,
+					"size":	40
+				}],
+			"0x0801AB72 listen_message":	{
+				"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+				"function":	"listen_message",
+				"line":	357,
+				"count":	36,
+				"allocated-blks":	[{
+						"count":	36,
+						"size":	40
+					}],
+				"0x0801BF58 recv_udp_msg":	{
+					"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport.c",
+					"function":	"recv_udp_msg",
+					"line":	47,
+					"count":	36,
+					"allocated-blks":	[{
+							"count":	36,
+							"size":	40
+						}],
+					"0x0801C14C uxr_read_udp_data_platform":	{
+						"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport_linux.c",
+						"function":	"uxr_read_udp_data_platform",
+						"line":	59,
+						"count":	36,
+						"allocated-blks":	[{
+								"count":	36,
+								"size":	40
+							}],
+						"0x08032056 poll":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_poll.c",
+							"function":	"poll_setup",
+							"line":	188,
+							"count":	36,
+							"allocated-blks":	[{
+									"count":	36,
+									"size":	40
+								}],
+							"0x0802C7F0 udp_pollsetup":	{
+								"file":	"/uros_ws/firmware/NuttX/net/udp/udp_netpoll.c",
+								"function":	"udp_pollsetup",
+								"line":	308,
+								"count":	36,
+								"allocated-blks":	[{
+										"count":	36,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	36,
+									"allocated-blks":	[{
+											"count":	36,
+											"size":	40
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0801B40E uxr_run_session_until_confirm_de":	{
+		"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+		"function":	"uxr_run_session_until_confirm_delivery",
+		"line":	191,
+		"count":	1006,
+		"allocated-blks":	[{
+				"count":	1006,
+				"size":	40
+			}],
+		"0x0801ACEE listen_message_reliably":	{
+			"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+			"function":	"listen_message_reliably",
+			"line":	399,
+			"count":	1006,
+			"allocated-blks":	[{
+					"count":	1006,
+					"size":	40
+				}],
+			"0x0801AB72 listen_message":	{
+				"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+				"function":	"listen_message",
+				"line":	357,
+				"count":	1006,
+				"allocated-blks":	[{
+						"count":	1006,
+						"size":	40
+					}],
+				"0x0801BF58 recv_udp_msg":	{
+					"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport.c",
+					"function":	"recv_udp_msg",
+					"line":	47,
+					"count":	1006,
+					"allocated-blks":	[{
+							"count":	1006,
+							"size":	40
+						}],
+					"0x0801C14C uxr_read_udp_data_platform":	{
+						"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport_linux.c",
+						"function":	"uxr_read_udp_data_platform",
+						"line":	59,
+						"count":	1006,
+						"allocated-blks":	[{
+								"count":	1006,
+								"size":	40
+							}],
+						"0x08032056 poll":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_poll.c",
+							"function":	"poll_setup",
+							"line":	188,
+							"count":	1006,
+							"allocated-blks":	[{
+									"count":	1006,
+									"size":	40
+								}],
+							"0x0802C7F0 udp_pollsetup":	{
+								"file":	"/uros_ws/firmware/NuttX/net/udp/udp_netpoll.c",
+								"function":	"udp_pollsetup",
+								"line":	308,
+								"count":	1006,
+								"allocated-blks":	[{
+										"count":	1006,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1006,
+									"allocated-blks":	[{
+											"count":	1006,
+											"size":	40
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0801AFAE uxr_delete_session":	{
+		"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+		"function":	"uxr_delete_session",
+		"line":	139,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	3,
+				"size":	40
+			}],
+		"0x0801ADFE wait_session_status.constprop.4":	{
+			"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+			"function":	"wait_session_status",
+			"line":	417,
+			"count":	3,
+			"allocated-blks":	[{
+					"count":	3,
+					"size":	40
+				}],
+			"0x0801AB72 listen_message":	{
+				"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/core/session/session.c",
+				"function":	"listen_message",
+				"line":	357,
+				"count":	3,
+				"allocated-blks":	[{
+						"count":	3,
+						"size":	40
+					}],
+				"0x0801BF58 recv_udp_msg":	{
+					"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport.c",
+					"function":	"recv_udp_msg",
+					"line":	47,
+					"count":	3,
+					"allocated-blks":	[{
+							"count":	3,
+							"size":	40
+						}],
+					"0x0801C14C uxr_read_udp_data_platform":	{
+						"file":	"/uros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/profile/transport/udp/udp_transport_linux.c",
+						"function":	"uxr_read_udp_data_platform",
+						"line":	59,
+						"count":	3,
+						"allocated-blks":	[{
+								"count":	3,
+								"size":	40
+							}],
+						"0x08032056 poll":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_poll.c",
+							"function":	"poll_setup",
+							"line":	188,
+							"count":	3,
+							"allocated-blks":	[{
+									"count":	3,
+									"size":	40
+								}],
+							"0x0802C7F0 udp_pollsetup":	{
+								"file":	"/uros_ws/firmware/NuttX/net/udp/udp_netpoll.c",
+								"function":	"udp_pollsetup",
+								"line":	308,
+								"count":	3,
+								"allocated-blks":	[{
+										"count":	3,
+										"size":	40
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	3,
+									"allocated-blks":	[{
+											"count":	3,
+											"size":	40
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x080001E2 __start":	{
+		"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_start.c",
+		"function":	"__start",
+		"line":	299,
+		"count":	8,
+		"allocated-blks":	[{
+				"count":	3,
+				"size":	56
+			}, {
+				"count":	1,
+				"size":	728
+			}, {
+				"count":	2,
+				"size":	392
+			}, {
+				"count":	2,
+				"size":	2072
+			}],
+		"0x08001A5E nx_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+			"function":	"nx_start",
+			"line":	736,
+			"count":	3,
+			"allocated-blks":	[{
+					"count":	3,
+					"size":	56
+				}],
+			"0x080057BE up_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_initialize.c",
+				"function":	"up_initialize",
+				"line":	184,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	56
+						}],
+					"0x08034348 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	224,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					},
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			},
+			"0x080057C2 up_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_initialize.c",
+				"function":	"up_initialize",
+				"line":	199,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08001A8E nx_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+			"function":	"nx_start",
+			"line":	876,
+			"count":	5,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}, {
+					"count":	2,
+					"size":	392
+				}, {
+					"count":	2,
+					"size":	2072
+				}],
+			"0x08001B60 nx_bringup":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_bringup",
+				"line":	472,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}],
+				"0x08001D8E kthread_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"kthread_create",
+					"line":	307,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					}
+				}
+			},
+			"0x08001B4C nx_bringup":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_workqueues",
+				"line":	209,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}, {
+						"count":	1,
+						"size":	2072
+					}],
+				"0x080020F0 work_hpstart":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/wqueue/kwork_hpthread.c",
+					"function":	"work_hpstart",
+					"line":	198,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}, {
+							"count":	1,
+							"size":	2072
+						}],
+					"0x08001D8E kthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"kthread_create",
+						"line":	307,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}, {
+								"count":	1,
+								"size":	2072
+							}],
+						"0x08001C70 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	97,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	392
+										}]
+								}
+							}
+						},
+						"0x08001C94 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	132,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	2072
+								}],
+							"0x0800572E up_create_stack":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+								"function":	"up_create_stack",
+								"line":	193,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	2072
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	2072
+										}]
+								}
+							}
+						}
+					}
+				}
+			},
+			"0x08001B50 nx_bringup":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_create_initthread",
+				"line":	375,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}, {
+						"count":	1,
+						"size":	2072
+					}],
+				"0x0800217C work_lpstart":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/wqueue/kwork_lpthread.c",
+					"function":	"work_lpstart",
+					"line":	194,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}, {
+							"count":	1,
+							"size":	2072
+						}],
+					"0x08001D8E kthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"kthread_create",
+						"line":	307,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}, {
+								"count":	1,
+								"size":	2072
+							}],
+						"0x08001C70 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	97,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	392
+										}]
+								}
+							}
+						},
+						"0x08001C94 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	132,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	2072
+								}],
+							"0x0800572E up_create_stack":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+								"function":	"up_create_stack",
+								"line":	193,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	2072
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	2072
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x08001A5E nx_start":	{
+		"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+		"function":	"nx_start",
+		"line":	736,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	3,
+				"size":	56
+			}],
+		"0x080057C6 up_initialize":	{
+			"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_initialize.c",
+			"function":	"up_initialize",
+			"line":	225,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	2,
+					"size":	56
+				}],
+			"0x080060E2 up_serialinit":	{
+				"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_serial.c",
+				"function":	"up_serialinit",
+				"line":	2814,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	2,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	2,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	2,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	2,
+							"allocated-blks":	[{
+									"count":	2,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	2,
+								"allocated-blks":	[{
+										"count":	2,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	2,
+									"allocated-blks":	[{
+											"count":	2,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x080057CC up_initialize":	{
+			"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_initialize.c",
+			"function":	"up_initialize",
+			"line":	240,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	56
+				}],
+			"0x08003FDE syslog_initialize":	{
+				"file":	"/uros_ws/firmware/NuttX/drivers/syslog/syslog_initialize.c",
+				"function":	"syslog_initialize",
+				"line":	120,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x080057CC up_initialize":	{
+		"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_initialize.c",
+		"function":	"up_initialize",
+		"line":	240,
+		"count":	1,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	56
+			}],
+		"0x08003FD8 syslog_initialize":	{
+			"file":	"/uros_ws/firmware/NuttX/drivers/syslog/syslog_initialize.c",
+			"function":	"syslog_initialize",
+			"line":	99,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	56
+				}],
+			"0x080042D6 ramlog_syslog_channel":	{
+				"file":	"/uros_ws/firmware/NuttX/drivers/syslog/ramlog.c",
+				"function":	"ramlog_syslog_channel",
+				"line":	756,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x0803294C register_driver":	{
+					"file":	"/uros_ws/firmware/NuttX/fs/driver/fs_registerdriver.c",
+					"function":	"register_driver",
+					"line":	88,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08034380 inode_reserve":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+						"function":	"inode_reserve",
+						"line":	239,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}],
+						"0x080342C2 inode_alloc":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/inode/fs_inodereserve.c",
+							"function":	"inode_alloc",
+							"line":	95,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x20009630 unknown":	{
+		"file":	"??",
+		"function":	"??",
+		"line":	0,
+		"count":	1,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	56
+			}],
+		"0x08037714 sem_wait":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/semaphore/sem_wait.c",
+			"function":	"sem_wait",
+			"line":	260,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	56
+				}],
+			"0x080163CA rcutils_logging_initialize_with_":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c",
+				"function":	"rcutils_logging_initialize_with_allocator",
+				"line":	166,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}],
+				"0x08017C4E rcutils_string_map_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/string_map.c",
+					"function":	"rcutils_string_map_init",
+					"line":	62,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}]
+					}
+				}
+			}
+		}
+	},
+	"0x08014390 __default_zero_allocate":	{
+		"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+		"function":	"__default_allocate",
+		"line":	35,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	56
+			}, {
+				"count":	2,
+				"size":	88
+			}],
+		"0x08014390 __default_zero_allocate":	{
+			"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+			"function":	"__default_allocate",
+			"line":	35,
+			"count":	3,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	56
+				}, {
+					"count":	2,
+					"size":	88
+				}],
+			"0x08014390 __default_zero_allocate":	{
+				"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+				"function":	"__default_allocate",
+				"line":	35,
+				"count":	3,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	56
+					}, {
+						"count":	2,
+						"size":	88
+					}],
+				"0x08014390 __default_zero_allocate":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+					"function":	"__default_allocate",
+					"line":	35,
+					"count":	3,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	56
+						}, {
+							"count":	2,
+							"size":	88
+						}],
+					"0x08014390 __default_zero_allocate":	{
+						"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+						"function":	"__default_allocate",
+						"line":	35,
+						"count":	3,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	56
+							}, {
+								"count":	2,
+								"size":	88
+							}],
+						"0x08014390 __default_zero_allocate":	{
+							"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/allocator.c",
+							"function":	"__default_allocate",
+							"line":	35,
+							"count":	3,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	56
+								}, {
+									"count":	2,
+									"size":	88
+								}],
+							"0x080233EA __rcl_guard_condition_init_from_":	{
+								"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/guard_condition.c",
+								"function":	"__rcl_guard_condition_init_from_rmw_impl",
+								"line":	73,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	56
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	56
+										}]
+								}
+							},
+							"0x0800FFF8 rcl_init_options_init":	{
+								"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/init_options.c",
+								"function":	"rcl_init_options_init",
+								"line":	45,
+								"count":	2,
+								"allocated-blks":	[{
+										"count":	2,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	2,
+									"allocated-blks":	[{
+											"count":	2,
+											"size":	88
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x080008FC unknown":	{
+		"file":	"/uros_ws/firmware/NuttX/arch/arm/src/armv7-m/gnu/up_exception.S",
+		"function":	"exception_common",
+		"line":	142,
+		"count":	11,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	152
+			}, {
+				"count":	1,
+				"size":	216
+			}, {
+				"count":	1,
+				"size":	408
+			}, {
+				"count":	2,
+				"size":	344
+			}, {
+				"count":	1,
+				"size":	280
+			}, {
+				"count":	1,
+				"size":	184
+			}, {
+				"count":	1,
+				"size":	312
+			}, {
+				"count":	1,
+				"size":	728
+			}, {
+				"count":	1,
+				"size":	392
+			}, {
+				"count":	1,
+				"size":	2072
+			}],
+		"0x080001E2 __start":	{
+			"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_start.c",
+			"function":	"__start",
+			"line":	299,
+			"count":	11,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	152
+				}, {
+					"count":	1,
+					"size":	216
+				}, {
+					"count":	1,
+					"size":	408
+				}, {
+					"count":	2,
+					"size":	344
+				}, {
+					"count":	1,
+					"size":	280
+				}, {
+					"count":	1,
+					"size":	184
+				}, {
+					"count":	1,
+					"size":	312
+				}, {
+					"count":	1,
+					"size":	728
+				}, {
+					"count":	1,
+					"size":	392
+				}, {
+					"count":	1,
+					"size":	2072
+				}],
+			"0x08001A42 nx_start":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+				"function":	"nx_start",
+				"line":	687,
+				"count":	5,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	152
+					}, {
+						"count":	1,
+						"size":	216
+					}, {
+						"count":	1,
+						"size":	408
+					}, {
+						"count":	1,
+						"size":	344
+					}, {
+						"count":	1,
+						"size":	280
+					}],
+				"0x08003384 nxsig_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+					"function":	"nxsig_alloc_pendingsignalblock",
+					"line":	186,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	152
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	152
+							}]
+					}
+				},
+				"0x08003336 nxsig_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+					"function":	"nxsig_alloc_block",
+					"line":	155,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	216
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	216
+							}]
+					}
+				},
+				"0x0800331A nxsig_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+					"function":	"nxsig_alloc_block",
+					"line":	149,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	408
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	408
+							}]
+					}
+				},
+				"0x08003358 nxsig_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+					"function":	"nxsig_alloc_pendingsignalblock",
+					"line":	179,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	344
+						}],
+					"0x080032B8 nxsig_alloc_actionblock":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+						"function":	"nxsig_alloc_actionblock",
+						"line":	261,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	344
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	344
+								}]
+						}
+					}
+				},
+				"0x08003360 nxsig_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/signal/sig_initialize.c",
+					"function":	"nxsig_alloc_pendingsignalblock",
+					"line":	186,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	280
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	280
+							}]
+					}
+				}
+			},
+			"0x08001A4A nx_start":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+				"function":	"nx_start",
+				"line":	698,
+				"count":	3,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	344
+					}, {
+						"count":	1,
+						"size":	184
+					}, {
+						"count":	1,
+						"size":	312
+					}],
+				"0x08037FC2 nxmq_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/mqueue/mq_initialize.c",
+					"function":	"mq_msgblockalloc",
+					"line":	132,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	344
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	344
+							}]
+					}
+				},
+				"0x08037FB8 nxmq_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/mqueue/mq_initialize.c",
+					"function":	"mq_msgblockalloc",
+					"line":	132,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	184
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	184
+							}]
+					}
+				},
+				"0x08037F58 nxmq_alloc_desblock":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/mqueue/mq_initialize.c",
+					"function":	"nxmq_alloc_desblock",
+					"line":	216,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	312
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	312
+							}]
+					}
+				}
+			},
+			"0x08001A6E nx_start":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+				"function":	"nx_start",
+				"line":	788,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}],
+				"0x0800220A group_allocate":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+					"function":	"group_allocate",
+					"line":	185,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}],
+					"0x080055AA mm_zalloc":	{
+						"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+						"function":	"mm_zalloc",
+						"line":	61,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}]
+						}
+					}
+				}
+			},
+			"0x08001A8E nx_start":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+				"function":	"nx_start",
+				"line":	876,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}, {
+						"count":	1,
+						"size":	2072
+					}],
+				"0x08001B60 nx_bringup":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+					"function":	"nx_bringup",
+					"line":	472,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}, {
+							"count":	1,
+							"size":	2072
+						}],
+					"0x08001D8E kthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"kthread_create",
+						"line":	307,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}, {
+								"count":	1,
+								"size":	2072
+							}],
+						"0x08001C70 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	97,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	392
+										}]
+								}
+							}
+						},
+						"0x08001C94 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	132,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	2072
+								}],
+							"0x0800572E up_create_stack":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+								"function":	"up_create_stack",
+								"line":	193,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	2072
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	2072
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x08001A8E nx_start":	{
+		"file":	"/uros_ws/firmware/NuttX/sched/init/nx_start.c",
+		"function":	"nx_start",
+		"line":	876,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	408
+			}, {
+				"count":	2,
+				"size":	728
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	408
+				}],
+			"0x080086E0 nsh_main":	{
+				"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+				"function":	"nsh_task",
+				"line":	241,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	408
+					}],
+				"0x0800884A nsh_netinit":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_netinit.c",
+					"function":	"nsh_netinit",
+					"line":	843,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	408
+						}],
+					"0x08036ACC pthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/pthread/pthread_create.c",
+						"function":	"pthread_create",
+						"line":	263,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	408
+							}],
+						"0x080055AA mm_zalloc":	{
+							"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+							"function":	"mm_zalloc",
+							"line":	61,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	408
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	408
+									}]
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08001B4C nx_bringup":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+			"function":	"nx_workqueues",
+			"line":	209,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}],
+			"0x080020F0 work_hpstart":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/wqueue/kwork_hpthread.c",
+				"function":	"work_hpstart",
+				"line":	198,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}],
+				"0x08001D8E kthread_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"kthread_create",
+					"line":	307,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08001B50 nx_bringup":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+			"function":	"nx_create_initthread",
+			"line":	375,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}],
+			"0x0800217C work_lpstart":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/wqueue/kwork_lpthread.c",
+				"function":	"work_lpstart",
+				"line":	194,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}],
+				"0x08001D8E kthread_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"kthread_create",
+					"line":	307,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x080087F6 nsh_netinit_thread":	{
+		"file":	"/uros_ws/firmware/apps/nshlib/nsh_netinit.c",
+		"function":	"nsh_netinit_thread",
+		"line":	809,
+		"count":	5,
+		"allocated-blks":	[{
+				"count":	2,
+				"size":	728
+			}, {
+				"count":	3,
+				"size":	88
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}],
+			"0x08001B20 nx_start_task":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_start_task",
+				"line":	346,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}],
+				"0x08001D26 nxtask_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"nxtask_create",
+					"line":	229,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08008BC8 ntpc_start":	{
+			"file":	"/uros_ws/firmware/apps/netutils/ntpclient/ntpclient.c",
+			"function":	"ntpc_start",
+			"line":	547,
+			"count":	4,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}, {
+					"count":	3,
+					"size":	88
+				}],
+			"0x08001D4A task_create":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+				"function":	"task_create",
+				"line":	268,
+				"count":	4,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}, {
+						"count":	3,
+						"size":	88
+					}],
+				"0x08001D26 nxtask_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"nxtask_create",
+					"line":	229,
+					"count":	4,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}, {
+							"count":	3,
+							"size":	88
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					},
+					"0x08001C86 nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	123,
+						"count":	3,
+						"allocated-blks":	[{
+								"count":	3,
+								"size":	88
+							}],
+						"0x08002F4E group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	87,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x08002F58 group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	88,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x08002F62 group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	91,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0800DDB8 exec_builtin":	{
+		"file":	"/uros_ws/firmware/apps/builtin/exec_builtin.c",
+		"function":	"exec_builtin",
+		"line":	205,
+		"count":	4,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	728
+			}, {
+				"count":	3,
+				"size":	88
+			}],
+		"0x08037C38 task_spawn":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_spawn.c",
+			"function":	"task_spawn",
+			"line":	356,
+			"count":	4,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	728
+				}, {
+					"count":	3,
+					"size":	88
+				}],
+			"0x08037B6C nxtask_spawn_exec":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/task/task_spawn.c",
+				"function":	"nxtask_spawn_exec",
+				"line":	143,
+				"count":	4,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	728
+					}, {
+						"count":	3,
+						"size":	88
+					}],
+				"0x08001D26 nxtask_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"nxtask_create",
+					"line":	229,
+					"count":	4,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	728
+						}, {
+							"count":	3,
+							"size":	88
+						}],
+					"0x08001C7C nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	108,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	728
+							}],
+						"0x0800220A group_allocate":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_create.c",
+							"function":	"group_allocate",
+							"line":	185,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	728
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	728
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	728
+										}]
+								}
+							}
+						}
+					},
+					"0x08001C86 nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	123,
+						"count":	3,
+						"allocated-blks":	[{
+								"count":	3,
+								"size":	88
+							}],
+						"0x08002F4E group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	87,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x08002F58 group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	88,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x08002F62 group_setupstreams":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/group/group_setupstreams.c",
+							"function":	"group_setupstreams",
+							"line":	91,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x08036A8A pthread_start":	{
+		"file":	"/uros_ws/firmware/NuttX/sched/pthread/pthread_create.c",
+		"function":	"pthread_start",
+		"line":	215,
+		"count":	3,
+		"allocated-blks":	[{
+				"count":	2,
+				"size":	392
+			}, {
+				"count":	1,
+				"size":	2072
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	392
+				}],
+			"0x08001B20 nx_start_task":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_start_task",
+				"line":	346,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}],
+				"0x08001D26 nxtask_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"nxtask_create",
+					"line":	229,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}],
+					"0x08001C70 nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	97,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}],
+						"0x080055AA mm_zalloc":	{
+							"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+							"function":	"mm_zalloc",
+							"line":	61,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}]
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x080087F6 nsh_netinit_thread":	{
+			"file":	"/uros_ws/firmware/apps/nshlib/nsh_netinit.c",
+			"function":	"nsh_netinit_thread",
+			"line":	809,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	392
+				}, {
+					"count":	1,
+					"size":	2072
+				}],
+			"0x08008BC8 ntpc_start":	{
+				"file":	"/uros_ws/firmware/apps/netutils/ntpclient/ntpclient.c",
+				"function":	"ntpc_start",
+				"line":	547,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}, {
+						"count":	1,
+						"size":	2072
+					}],
+				"0x08001D4A task_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"task_create",
+					"line":	268,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}, {
+							"count":	1,
+							"size":	2072
+						}],
+					"0x08001D26 nxtask_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxtask_create",
+						"line":	229,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}, {
+								"count":	1,
+								"size":	2072
+							}],
+						"0x08001C70 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	97,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	392
+										}]
+								}
+							}
+						},
+						"0x08001C94 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	132,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	2072
+								}],
+							"0x0800572E up_create_stack":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+								"function":	"up_create_stack",
+								"line":	193,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	2072
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	2072
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x0800CC00 nsh_builtin":	{
+		"file":	"/uros_ws/firmware/apps/nshlib/nsh_builtin.c",
+		"function":	"nsh_builtin",
+		"line":	107,
+		"count":	2,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	392
+			}, {
+				"count":	1,
+				"size":	65016
+			}],
+		"0x0800DDB8 exec_builtin":	{
+			"file":	"/uros_ws/firmware/apps/builtin/exec_builtin.c",
+			"function":	"exec_builtin",
+			"line":	205,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	392
+				}, {
+					"count":	1,
+					"size":	65016
+				}],
+			"0x08037C38 task_spawn":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/task/task_spawn.c",
+				"function":	"task_spawn",
+				"line":	356,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	392
+					}, {
+						"count":	1,
+						"size":	65016
+					}],
+				"0x08037B6C nxtask_spawn_exec":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_spawn.c",
+					"function":	"nxtask_spawn_exec",
+					"line":	143,
+					"count":	2,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	392
+						}, {
+							"count":	1,
+							"size":	65016
+						}],
+					"0x08001D26 nxtask_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxtask_create",
+						"line":	229,
+						"count":	2,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	392
+							}, {
+								"count":	1,
+								"size":	65016
+							}],
+						"0x08001C70 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	97,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	392
+								}],
+							"0x080055AA mm_zalloc":	{
+								"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+								"function":	"mm_zalloc",
+								"line":	61,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	392
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	392
+										}]
+								}
+							}
+						},
+						"0x08001C94 nxthread_create":	{
+							"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+							"function":	"nxthread_create",
+							"line":	132,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	65016
+								}],
+							"0x0800572E up_create_stack":	{
+								"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+								"function":	"up_create_stack",
+								"line":	193,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	65016
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	65016
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x080086E8 nsh_main":	{
+		"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+		"function":	"nsh_task",
+		"line":	241,
+		"count":	13,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	2072
+			}, {
+				"count":	1,
+				"size":	1592
+			}, {
+				"count":	1,
+				"size":	696
+			}, {
+				"count":	1,
+				"size":	760
+			}, {
+				"count":	5,
+				"size":	88
+			}, {
+				"count":	4,
+				"size":	120
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	4,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	2072
+				}, {
+					"count":	1,
+					"size":	1592
+				}, {
+					"count":	1,
+					"size":	696
+				}, {
+					"count":	1,
+					"size":	760
+				}],
+			"0x08001B20 nx_start_task":	{
+				"file":	"/uros_ws/firmware/NuttX/sched/init/nx_bringup.c",
+				"function":	"nx_start_task",
+				"line":	346,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	2072
+					}],
+				"0x08001D26 nxtask_create":	{
+					"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+					"function":	"nxtask_create",
+					"line":	229,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	2072
+						}],
+					"0x08001C94 nxthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/task/task_create.c",
+						"function":	"nxthread_create",
+						"line":	132,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	2072
+							}],
+						"0x0800572E up_create_stack":	{
+							"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+							"function":	"up_create_stack",
+							"line":	193,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	2072
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	2072
+									}]
+							}
+						}
+					}
+				}
+			},
+			"0x080086E0 nsh_main":	{
+				"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+				"function":	"nsh_task",
+				"line":	241,
+				"count":	1,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	1592
+					}],
+				"0x0800884A nsh_netinit":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_netinit.c",
+					"function":	"nsh_netinit",
+					"line":	843,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	1592
+						}],
+					"0x08036B32 pthread_create":	{
+						"file":	"/uros_ws/firmware/NuttX/sched/pthread/pthread_create.c",
+						"function":	"pthread_create",
+						"line":	312,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	1592
+							}],
+						"0x0800572E up_create_stack":	{
+							"file":	"/uros_ws/firmware/NuttX/arch/arm/src/common/up_createstack.c",
+							"function":	"up_create_stack",
+							"line":	193,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	1592
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	1592
+									}]
+							}
+						}
+					}
+				}
+			},
+			"0x080086E8 nsh_main":	{
+				"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+				"function":	"nsh_task",
+				"line":	241,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	696
+					}, {
+						"count":	1,
+						"size":	760
+					}],
+				"0x0800895C nsh_consolemain":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+					"function":	"nsh_consolemain",
+					"line":	289,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	696
+						}],
+					"0x0800925C nsh_newconsole":	{
+						"file":	"/uros_ws/firmware/apps/nshlib/nsh_console.c",
+						"function":	"nsh_newconsole",
+						"line":	459,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	696
+							}],
+						"0x080055AA mm_zalloc":	{
+							"file":	"/uros_ws/firmware/NuttX/mm/mm_heap/mm_zalloc.c",
+							"function":	"mm_zalloc",
+							"line":	61,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	696
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	696
+									}]
+							}
+						}
+					}
+				},
+				"0x08008978 nsh_consolemain":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+					"function":	"nsh_consolemain",
+					"line":	311,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	760
+						}],
+					"0x08039812 boardctl":	{
+						"file":	"/uros_ws/firmware/NuttX/configs/boardctl.c",
+						"function":	"boardctl_usbdevctrl",
+						"line":	106,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	760
+							}],
+						"0x0804146A cdcacm_initialize":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_classobject",
+							"line":	2903,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	760
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	760
+									}]
+							}
+						}
+					}
+				}
+			}
+		},
+		"0x08008978 nsh_consolemain":	{
+			"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+			"function":	"nsh_consolemain",
+			"line":	311,
+			"count":	9,
+			"allocated-blks":	[{
+					"count":	5,
+					"size":	88
+				}, {
+					"count":	4,
+					"size":	120
+				}],
+			"0x08039812 boardctl":	{
+				"file":	"/uros_ws/firmware/NuttX/configs/boardctl.c",
+				"function":	"boardctl_usbdevctrl",
+				"line":	106,
+				"count":	9,
+				"allocated-blks":	[{
+						"count":	5,
+						"size":	88
+					}, {
+						"count":	4,
+						"size":	120
+					}],
+				"0x08041520 cdcacm_initialize":	{
+					"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+					"function":	"cdcacm_initialize",
+					"line":	3067,
+					"count":	9,
+					"allocated-blks":	[{
+							"count":	5,
+							"size":	88
+						}, {
+							"count":	4,
+							"size":	120
+						}],
+					"0x08007704 usbdev_register":	{
+						"file":	"/uros_ws/firmware/NuttX/arch/arm/src/chip/stm32_otgfsdev.c",
+						"function":	"usbdev_register",
+						"line":	5641,
+						"count":	9,
+						"allocated-blks":	[{
+								"count":	5,
+								"size":	88
+							}, {
+								"count":	4,
+								"size":	120
+							}],
+						"0x08040FC0 cdcacm_bind":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_bind",
+							"line":	1336,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080408A2 cdcacm_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+								"function":	"cdcacm_allocreq",
+								"line":	791,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x0804104E cdcacm_bind":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_bind",
+							"line":	1403,
+							"count":	4,
+							"allocated-blks":	[{
+									"count":	4,
+									"size":	88
+								}],
+							"0x080408A2 cdcacm_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+								"function":	"cdcacm_allocreq",
+								"line":	791,
+								"count":	4,
+								"allocated-blks":	[{
+										"count":	4,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	4,
+									"allocated-blks":	[{
+											"count":	4,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x08041078 cdcacm_bind":	{
+							"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+							"function":	"cdcacm_bind",
+							"line":	1440,
+							"count":	4,
+							"allocated-blks":	[{
+									"count":	4,
+									"size":	120
+								}],
+							"0x080408A2 cdcacm_allocreq":	{
+								"file":	"/uros_ws/firmware/NuttX/drivers/usbdev/cdcacm.c",
+								"function":	"cdcacm_allocreq",
+								"line":	791,
+								"count":	4,
+								"allocated-blks":	[{
+										"count":	4,
+										"size":	120
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	4,
+									"allocated-blks":	[{
+											"count":	4,
+											"size":	120
+										}]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"0x65646F4E unknown":	{
+		"file":	"??",
+		"function":	"??",
+		"line":	0,
+		"count":	8,
+		"allocated-blks":	[{
+				"count":	6,
+				"size":	88
+			}, {
+				"count":	1,
+				"size":	120
+			}, {
+				"count":	1,
+				"size":	72
+			}],
+		"0x08002058 nxtask_start":	{
+			"file":	"/uros_ws/firmware/NuttX/sched/task/task_start.c",
+			"function":	"nxtask_start",
+			"line":	145,
+			"count":	6,
+			"allocated-blks":	[{
+					"count":	6,
+					"size":	88
+				}],
+			"0x080086E8 nsh_main":	{
+				"file":	"/uros_ws/firmware/apps/system/nsh/nsh_main.c",
+				"function":	"nsh_task",
+				"line":	241,
+				"count":	6,
+				"allocated-blks":	[{
+						"count":	6,
+						"size":	88
+					}],
+				"0x0800897C nsh_consolemain":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+					"function":	"nsh_waitusbready",
+					"line":	169,
+					"count":	3,
+					"allocated-blks":	[{
+							"count":	3,
+							"size":	88
+						}],
+					"0x08008928 nsh_nullstdio":	{
+						"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+						"function":	"nsh_nullstdio",
+						"line":	129,
+						"count":	3,
+						"allocated-blks":	[{
+								"count":	3,
+								"size":	88
+							}],
+						"0x080088E2 nsh_configstdio":	{
+							"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+							"function":	"nsh_configstdio",
+							"line":	100,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x080088EA nsh_configstdio":	{
+							"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+							"function":	"nsh_configstdio",
+							"line":	101,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x080328CE fs_fdopen":	{
+								"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+								"function":	"fs_fdopen",
+								"line":	232,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}],
+								"0x08005556 mm_malloc":	{
+									"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+									"function":	"backtrace_unwind",
+									"line":	64,
+									"count":	1,
+									"allocated-blks":	[{
+											"count":	1,
+											"size":	88
+										}]
+								}
+							}
+						},
+						"0x080328CE fs_fdopen":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+							"function":	"fs_fdopen",
+							"line":	232,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}]
+							}
+						}
+					}
+				},
+				"0x080089BA nsh_consolemain":	{
+					"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+					"function":	"nsh_waitusbready",
+					"line":	233,
+					"count":	3,
+					"allocated-blks":	[{
+							"count":	3,
+							"size":	88
+						}],
+					"0x080088E2 nsh_configstdio":	{
+						"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+						"function":	"nsh_configstdio",
+						"line":	100,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	88
+							}],
+						"0x080328CE fs_fdopen":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+							"function":	"fs_fdopen",
+							"line":	232,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}]
+							}
+						}
+					},
+					"0x080088EA nsh_configstdio":	{
+						"file":	"/uros_ws/firmware/apps/nshlib/nsh_usbconsole.c",
+						"function":	"nsh_configstdio",
+						"line":	101,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	88
+							}],
+						"0x080328CE fs_fdopen":	{
+							"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+							"function":	"fs_fdopen",
+							"line":	232,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}],
+							"0x08005556 mm_malloc":	{
+								"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+								"function":	"backtrace_unwind",
+								"line":	64,
+								"count":	1,
+								"allocated-blks":	[{
+										"count":	1,
+										"size":	88
+									}]
+							}
+						}
+					},
+					"0x080328CE fs_fdopen":	{
+						"file":	"/uros_ws/firmware/NuttX/fs/vfs/fs_fdopen.c",
+						"function":	"fs_fdopen",
+						"line":	232,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	88
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	88
+								}]
+						}
+					}
+				}
+			}
+		},
+		"0x0000000A __start":	{
+			"file":	"??",
+			"function":	"??",
+			"line":	0,
+			"count":	2,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	120
+				}, {
+					"count":	1,
+					"size":	72
+				}],
+			"0x08010A3E rcl_logging_rosout_init":	{
+				"file":	"/uros_ws/firmware/mcu_ws/ros2/rcl/rcl/src/rcl/logging_rosout.c",
+				"function":	"rcl_logging_rosout_init",
+				"line":	95,
+				"count":	2,
+				"allocated-blks":	[{
+						"count":	1,
+						"size":	120
+					}, {
+						"count":	1,
+						"size":	72
+					}],
+				"0x080157A4 rcutils_hash_map_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+					"function":	"rcutils_hash_map_init",
+					"line":	272,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	120
+						}],
+					"0x080155E8 ñçhash_map_allocate_new_map":	{
+						"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+						"function":	"hash_map_allocate_new_map",
+						"line":	89,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	120
+							}],
+						"0x08005556 mm_malloc":	{
+							"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+							"function":	"backtrace_unwind",
+							"line":	64,
+							"count":	1,
+							"allocated-blks":	[{
+									"count":	1,
+									"size":	120
+								}]
+						}
+					}
+				},
+				"0x0801575E rcutils_hash_map_init":	{
+					"file":	"/uros_ws/firmware/mcu_ws/uros/rcutils/src/hash_map.c",
+					"function":	"rcutils_hash_map_init",
+					"line":	258,
+					"count":	1,
+					"allocated-blks":	[{
+							"count":	1,
+							"size":	72
+						}],
+					"0x08005556 mm_malloc":	{
+						"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+						"function":	"backtrace_unwind",
+						"line":	64,
+						"count":	1,
+						"allocated-blks":	[{
+								"count":	1,
+								"size":	72
+							}]
+					}
+				}
+			}
+		}
+	},
+	"0x080366A4 unknown":	{
+		"file":	"/build/gcc-arm-none-eabi-iopiMw/gcc-arm-none-eabi-6.3.1+svn253039/build/arm-none-eabi/thumb/v7e-m/fpv4-sp/hard/libgcc/../../../../../../../src/libgcc/emutls.c",
+		"function":	"emutls_alloc",
+		"line":	111,
+		"count":	1,
+		"allocated-blks":	[{
+				"count":	1,
+				"size":	1048
+			}],
+		"0x08005556 mm_malloc":	{
+			"file":	"/uros_ws/firmware/NuttX/include/backtrace.h",
+			"function":	"backtrace_unwind",
+			"line":	64,
+			"count":	1,
+			"allocated-blks":	[{
+					"count":	1,
+					"size":	1048
+				}]
+		}
+	}
+}
