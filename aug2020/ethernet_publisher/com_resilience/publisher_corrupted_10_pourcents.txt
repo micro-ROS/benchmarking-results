@@ -1,6 +1,6 @@
 AUTHOR (email): Alexandre Malki	(amalki@piap.pl)
 DATE (YYYY/MM/DD HH:mm:ss):  2020/08/31 14:11:47
-DESCRIPTION: Output from the publisher application and the agent when 10 pourcent of htep akcet are corrupted
+DESCRIPTION: Output from the publisher application and the agent when 10 pourcents of the packets are corrupted
 
 ##################### Output from the Agent:
 

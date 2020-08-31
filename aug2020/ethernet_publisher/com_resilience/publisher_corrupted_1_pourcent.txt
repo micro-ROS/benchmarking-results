@@ -1,6 +1,6 @@
 AUTHOR (email): Alexandre Malki	(amalki@piap.pl)
 DATE (YYYY/MM/DD HH:mm:ss):  2020/08/31 15:51:23
-DESCRIPTION: Output from the publisher application with 1% corrupted packets
+DESCRIPTION: Output from the publisher application with 1 pourcent of the packets are corrupted.
 
 ##################### Output from the Agent:
 Press CTRL+C to exit
