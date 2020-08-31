@@ -1,0 +1,85 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.charts.load('current', { 'packages': ['corechart'] });
+    //google.charts.load('current', { 'packages': ['bar'] });
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var jsonData = [];
+      jsonData.push(['', '']);
+      $.getJSON('20200828_14_08_1598616535_mem_dyn.json', function (data) {
+        //console.log(data);
+        //jsonData = JSON.parse(data)
+        for (const [key, value] of Object.entries(data['publisher'])) {
+          console.log(`key: ${key}, value: ${value}`)
+          var value_top = value
+          var key_top = key
+          var cnt
+          cnt = 0
+          for (const [key, value] of Object.entries(value_top)) {
+            var value_2 = value
+            for (const [key, value] of Object.entries(value_2['heap_alloc'])) {
+              cnt++
+            }
+          }
+          jsonData.push([key_top, cnt])
+        }
+        console.log("Total elements:" + jsonData.length)
+        console.log(jsonData)
+
+        var dataDisp = google.visualization.arrayToDataTable(jsonData);
+
+        var options = {
+          title: 'Number of allocations vs. size of allocation',
+          isStacked: true,
+          height: 600,
+          chartArea: {
+            height: 400,
+            top: 100,
+          },
+          hAxis: {
+            title: 'Size of allocation',
+            titleTextStyle: {
+              //color: '#FF0000',
+            },
+            slantedText: true,
+            slantedTextAngle: 90,
+            textStyle:  {fontSize: 12,italic: true}
+
+          },
+          vAxis: {
+            title: 'Number of allocations'
+          }
+        };
+
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('columnchart'));
+        google.visualization.events.addListener(chart, 'ready', function () {
+          var imgUri = chart.getImageURI();
+          // do something with the image URI, like:
+          window.open(imgUri);
+        });
+        chart.draw(dataDisp, options);
+
+      });
+    }
+
+  </script>
+</head>
+
+<body>
+  <!--Div that will hold the pie chart-->
+  <div id="columnchart" style="height: 800px;"></div>
+</body>
+
+</html>

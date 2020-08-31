@@ -1,0 +1,136 @@
+[01:00:00.000050761] (+?.?????????) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001AEE, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20015390, real_alloc = 264, user_alloc = 256, user_req = 240 }
+[01:00:00.000123904] (+0.000073143) 0 heap_alloc: { pid = 0, fn1 = 0x8001AFA, fn2 = 0x800209A, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20015490, real_alloc = 504, user_alloc = 496, user_req = 484 }
+[01:00:00.000227904] (+0.000104000) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001B12, fn3 = 0x8005B80, fn4 = 0x800598C, address = 0x20015680, real_alloc = 2072, user_alloc = 2064, user_req = 2048 }
+[01:00:00.000257714] (+0.000029810) 0 thread_create: { thread_id = 2, name = "hpwork" }
+[01:00:00.000337714] (+0.000080000) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001AEE, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20015E90, real_alloc = 264, user_alloc = 256, user_req = 240 }
+[01:00:00.000409142] (+0.000071428) 0 heap_alloc: { pid = 0, fn1 = 0x8001AFA, fn2 = 0x800209A, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20015F90, real_alloc = 504, user_alloc = 496, user_req = 484 }
+[01:00:00.000513142] (+0.000104000) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001B12, fn3 = 0x8005B80, fn4 = 0x800598C, address = 0x20016180, real_alloc = 2072, user_alloc = 2064, user_req = 2048 }
+[01:00:00.000542952] (+0.000029810) 0 thread_create: { thread_id = 3, name = "lpwork" }
+[01:00:00.000625904] (+0.000082952) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001AEE, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20016990, real_alloc = 264, user_alloc = 256, user_req = 240 }
+[01:00:00.000697619] (+0.000071715) 0 heap_alloc: { pid = 0, fn1 = 0x8001AFA, fn2 = 0x800209A, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20016A90, real_alloc = 504, user_alloc = 496, user_req = 484 }
+[01:00:00.000801523] (+0.000103904) 0 heap_alloc: { pid = 0, fn1 = 0x8001C12, fn2 = 0x8001B12, fn3 = 0x8005B80, fn4 = 0x800598C, address = 0x20016C80, real_alloc = 2072, user_alloc = 2064, user_req = 2048 }
+[01:00:00.000885904] (+0.000084381) 0 heap_alloc: { pid = 4, fn1 = 0x8001BAA, fn2 = 0x8001AEE, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20017490, real_alloc = 264, user_alloc = 256, user_req = 240 }
+[01:00:00.000957619] (+0.000071715) 0 heap_alloc: { pid = 4, fn1 = 0x8001AFA, fn2 = 0x800209A, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20017590, real_alloc = 504, user_alloc = 496, user_req = 484 }
+[01:00:00.001061523] (+0.000103904) 0 heap_alloc: { pid = 4, fn1 = 0x8001BAA, fn2 = 0x8001B12, fn3 = 0x8005B80, fn4 = 0x800598C, address = 0x20017780, real_alloc = 2072, user_alloc = 2064, user_req = 2048 }
+[01:00:00.001091523] (+0.000030000) 0 thread_create: { thread_id = 5, name = "init" }
+[01:00:00.001117428] (+0.000025905) 0 heap_free: { pid = 4, address = 0x20016A90, real_alloc = 504, user_alloc = 496 }
+[01:00:00.001138095] (+0.000020667) 0 heap_free: { pid = 5, address = 0x20016C80, real_alloc = 2072, user_alloc = 2064 }
+[01:00:00.001154285] (+0.000016190) 0 heap_free: { pid = 5, address = 0x20016990, real_alloc = 264, user_alloc = 256 }
+[01:00:00.001218285] (+0.000064000) 0 heap_alloc: { pid = 5, fn1 = 0x8007B04, fn2 = 0x8007EA4, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20016990, real_alloc = 696, user_alloc = 688, user_req = 680 }
+[01:00:00.001311333] (+0.000093048) 0 heap_alloc: { pid = 5, fn1 = 0x8007B20, fn2 = 0x803130E, fn3 = 0x80351BC, fn4 = 0x800598C, address = 0x20016C40, real_alloc = 792, user_alloc = 784, user_req = 764 }
+[01:00:00.001412952] (+0.000101619) 0 heap_alloc: { pid = 5, fn1 = 0x802BC26, fn2 = 0x802BB68, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20016F50, real_alloc = 56, user_alloc = 48, user_req = 31 }
+[01:00:00.001492761] (+0.000079809) 0 heap_alloc: { pid = 5, fn1 = 0x802BC26, fn2 = 0x802BB68, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20016F80, real_alloc = 56, user_alloc = 48, user_req = 31 }
+[01:00:00.001559619] (+0.000066858) 0 heap_alloc: { pid = 5, fn1 = 0x8034D52, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20016FB0, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.001622476] (+0.000062857) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034D52, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20016FD0, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:00.001687333] (+0.000064857) 0 heap_alloc: { pid = 5, fn1 = 0x8034DCE, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017020, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.001750476] (+0.000063143) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DCE, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017040, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:00.001813714] (+0.000063238) 0 heap_alloc: { pid = 5, fn1 = 0x8034DCE, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017090, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.001876476] (+0.000062762) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DCE, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x200170B0, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:00.001939619] (+0.000063143) 0 heap_alloc: { pid = 5, fn1 = 0x8034DCE, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017100, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002002476] (+0.000062857) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DCE, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017120, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:00.002065619] (+0.000063143) 0 heap_alloc: { pid = 5, fn1 = 0x8034DCE, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017170, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002128380] (+0.000062761) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DCE, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017190, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:00.002191809] (+0.000063429) 0 heap_alloc: { pid = 5, fn1 = 0x8034DF6, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x200171E0, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002254666] (+0.000062857) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DF6, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017200, real_alloc = 120, user_alloc = 112, user_req = 96 }
+[01:00:00.002318285] (+0.000063619) 0 heap_alloc: { pid = 5, fn1 = 0x8034DF6, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017270, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002381333] (+0.000063048) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DF6, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017290, real_alloc = 120, user_alloc = 112, user_req = 96 }
+[01:00:00.002444666] (+0.000063333) 0 heap_alloc: { pid = 5, fn1 = 0x8034DF6, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017300, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002507333] (+0.000062667) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DF6, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x20017320, real_alloc = 120, user_alloc = 112, user_req = 96 }
+[01:00:00.002570666] (+0.000063333) 0 heap_alloc: { pid = 5, fn1 = 0x8034DF6, fn2 = 0x803465E, fn3 = 0x800658E, fn4 = 0x800598C, address = 0x20017390, real_alloc = 40, user_alloc = 32, user_req = 24 }
+[01:00:00.002633238] (+0.000062572) 0 heap_alloc: { pid = 5, fn1 = 0x80075BC, fn2 = 0x8034DF6, fn3 = 0x803466A, fn4 = 0x800598C, address = 0x200173B0, real_alloc = 120, user_alloc = 112, user_req = 96 }
+[01:00:00.002680190] (+0.000046952) 0 thread_create: { thread_id = 32165, name = "" }
+[01:00:03.326518190] (+3.323838000) 0 heap_alloc: { pid = 5, fn1 = 0x8007B68, fn2 = 0x8007AC6, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x20017420, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:03.326593142] (+0.000074952) 0 heap_alloc: { pid = 5, fn1 = 0x8007B68, fn2 = 0x8007ACE, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x20017F90, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:03.326659523] (+0.000066381) 0 heap_alloc: { pid = 5, fn1 = 0x8007A34, fn2 = 0x8007B68, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x20017FE0, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.734893714] (+2.408234191) 0 heap_alloc: { pid = 5, fn1 = 0x8001BAA, fn2 = 0x8001AEE, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20018030, real_alloc = 264, user_alloc = 256, user_req = 240 }
+[01:00:05.734974095] (+0.000080381) 0 heap_alloc: { pid = 5, fn1 = 0x8001AFA, fn2 = 0x800209A, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20018130, real_alloc = 504, user_alloc = 496, user_req = 484 }
+[01:00:05.735089904] (+0.000115809) 0 heap_alloc: { pid = 5, fn1 = 0x8001B04, fn2 = 0x8002BF2, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x20018320, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.735156190] (+0.000066286) 0 heap_alloc: { pid = 5, fn1 = 0x8001B04, fn2 = 0x8002BFC, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x20018370, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.735222857] (+0.000066667) 0 heap_alloc: { pid = 5, fn1 = 0x8001B04, fn2 = 0x8002C06, fn3 = 0x802A33A, fn4 = 0x800598C, address = 0x200183C0, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.735285142] (+0.000062285) 0 heap_alloc: { pid = 5, fn1 = 0x8001BAA, fn2 = 0x8001B12, fn3 = 0x8005B80, fn4 = 0x800598C, address = 0x10000010, real_alloc = 65016, user_alloc = 65008, user_req = 65000 }
+[01:00:05.735316571] (+0.000031429) 0 thread_create: { thread_id = 6, name = "publisher" }
+[01:00:05.735365428] (+0.000048857) 0 measurement_start:
+[01:00:05.735398095] (+0.000032667) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800C5EE, fn4 = 0x800598C, address = 0x1000FE00, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.735446857] (+0.000048762) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800C646, fn3 = 0x8014DD2, fn4 = 0x800598C, address = 0x1000FE50, real_alloc = 72, user_alloc = 64, user_req = 56 }
+[01:00:05.735506761] (+0.000059904) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800C2D4, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x1000FE90, real_alloc = 72, user_alloc = 64, user_req = 56 }
+[01:00:05.735548285] (+0.000041524) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800C5EE, fn4 = 0x800598C, address = 0x1000FED0, real_alloc = 88, user_alloc = 80, user_req = 64 }
+[01:00:05.735596952] (+0.000048667) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800C646, fn3 = 0x8014DD2, fn4 = 0x800598C, address = 0x1000FF20, real_alloc = 72, user_alloc = 64, user_req = 56 }
+[01:00:05.735628761] (+0.000031809) 0 heap_free: { pid = 6, address = 0x1000FF20, real_alloc = 72, user_alloc = 64 }
+[01:00:05.735686857] (+0.000058096) 0 heap_alloc: { pid = 6, fn1 = 0x800C800, fn2 = 0x8014EC6, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x1000FF20, real_alloc = 72, user_alloc = 64, user_req = 56 }
+[01:00:05.735736666] (+0.000049809) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800C3B4, fn3 = 0x8005A0A, fn4 = 0x800598C, address = 0x20017470, real_alloc = 24, user_alloc = 16, user_req = 4 }
+[01:00:05.735774666] (+0.000038000) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800C410, fn4 = 0x800598C, address = 0x1000FF60, real_alloc = 40, user_alloc = 32, user_req = 9 }
+[01:00:05.735812761] (+0.000038095) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x801FA3E, fn4 = 0x800598C, address = 0x1000FF80, real_alloc = 72, user_alloc = 64, user_req = 56 }
+[01:00:05.735848952] (+0.000036191) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x801FA8A, fn4 = 0x800598C, address = 0x20017480, real_alloc = 24, user_alloc = 16, user_req = 4 }
+[01:00:05.735885428] (+0.000036476) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x801FAA0, fn4 = 0x800598C, address = 0x1000FFC0, real_alloc = 24, user_alloc = 16, user_req = 4 }
+[01:00:05.735921904] (+0.000036476) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x801FAAE, fn4 = 0x800598C, address = 0x1000FFD0, real_alloc = 24, user_alloc = 16, user_req = 4 }
+[01:00:05.735973047] (+0.000051143) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x802EF9A, fn4 = 0x800598C, address = 0x1000FFE0, real_alloc = 24, user_alloc = 16, user_req = 5 }
+[01:00:05.736011142] (+0.000038095) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x802EF9A, fn4 = 0x800598C, address = 0x20018410, real_alloc = 1048, user_alloc = 1040, user_req = 1028 }
+[01:00:05.736092000] (+0.000080858) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x802EFBC, fn4 = 0x800598C, address = 0x20018820, real_alloc = 1048, user_alloc = 1040, user_req = 1019 }
+[01:00:05.736224857] (+0.000132857) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x802EF9A, fn4 = 0x800598C, address = 0x1000FFF0, real_alloc = 24, user_alloc = 16, user_req = 5 }
+[01:00:05.736421142] (+0.000196285) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x801F686, fn4 = 0x800598C, address = 0x20018C30, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:05.736459523] (+0.000038381) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x8021132, fn4 = 0x800598C, address = 0x20018C60, real_alloc = 72, user_alloc = 64, user_req = 48 }
+[01:00:05.736648190] (+0.000188667) 0 heap_free: { pid = 6, address = 0x20018C30, real_alloc = 56, user_alloc = 48 }
+[01:00:05.736665047] (+0.000016857) 0 heap_free: { pid = 6, address = 0x20018C60, real_alloc = 72, user_alloc = 64 }
+[01:00:05.737912857] (+0.001247810) 0 heap_free: { pid = 6, address = 0x20017480, real_alloc = 24, user_alloc = 16 }
+[01:00:05.737928666] (+0.000015809) 0 heap_free: { pid = 6, address = 0x1000FFD0, real_alloc = 24, user_alloc = 16 }
+[01:00:05.737993904] (+0.000065238) 0 heap_alloc: { pid = 6, fn1 = 0x1000EC68, fn2 = 0x8012A8E, fn3 = 0x801434E, fn4 = 0x800598C, address = 0x20018C30, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:05.738044285] (+0.000050381) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800CDCC, fn3 = 0x8011EE2, fn4 = 0x800598C, address = 0x20018C60, real_alloc = 72, user_alloc = 64, user_req = 48 }
+[01:00:05.738100666] (+0.000056381) 0 heap_alloc: { pid = 6, fn1 = 0x800CDCC, fn2 = 0x8011F2A, fn3 = 0x8011BCC, fn4 = 0x800598C, address = 0x20018CA0, real_alloc = 120, user_alloc = 112, user_req = 96 }
+[01:00:05.751972190] (+0.013871524) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800DA38, fn4 = 0x800598C, address = 0x20018D10, real_alloc = 72, user_alloc = 64, user_req = 52 }
+[01:00:05.752035142] (+0.000062952) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800DB3A, fn3 = 0x8011AA2, fn4 = 0x800598C, address = 0x20018D50, real_alloc = 40, user_alloc = 32, user_req = 21 }
+[01:00:05.752103523] (+0.000068381) 0 heap_alloc: { pid = 6, fn1 = 0x800D77A, fn2 = 0x8013F9A, fn3 = 0x8013F3C, fn4 = 0x800598C, address = 0x20018D70, real_alloc = 40, user_alloc = 32, user_req = 20 }
+[01:00:05.752171428] (+0.000067905) 0 heap_alloc: { pid = 6, fn1 = 0x800DCBE, fn2 = 0x801540A, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x20018D90, real_alloc = 40, user_alloc = 32, user_req = 20 }
+[01:00:05.752229619] (+0.000058191) 0 heap_alloc: { pid = 6, fn1 = 0x800DCBE, fn2 = 0x801542E, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x20018DB0, real_alloc = 40, user_alloc = 32, user_req = 20 }
+[01:00:05.752287619] (+0.000058000) 0 heap_alloc: { pid = 6, fn1 = 0x800DCBE, fn2 = 0x8015466, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x1000FFD0, real_alloc = 24, user_alloc = 16, user_req = 2 }
+[01:00:05.783330380] (+0.031042761) 0 heap_alloc: { pid = 6, fn1 = 0x800DD00, fn2 = 0x8015774, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x20018DD0, real_alloc = 40, user_alloc = 32, user_req = 12 }
+[01:00:05.783372190] (+0.000041810) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800DD22, fn4 = 0x800598C, address = 0x20017480, real_alloc = 24, user_alloc = 16, user_req = 8 }
+[01:00:05.783416952] (+0.000044762) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x8020AEA, fn4 = 0x800598C, address = 0x20018DF0, real_alloc = 56, user_alloc = 48, user_req = 28 }
+[01:00:05.783491619] (+0.000074667) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800E2D2, fn3 = 0x801434E, fn4 = 0x800598C, address = 0x20018E20, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:05.783564666] (+0.000073047) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x80208F6, fn3 = 0x8011AA2, fn4 = 0x800598C, address = 0x20018E50, real_alloc = 24, user_alloc = 16, user_req = 8 }
+[01:00:05.783590857] (+0.000026191) 0 heap_free: { pid = 6, address = 0x20018E20, real_alloc = 56, user_alloc = 48 }
+[01:00:05.783640761] (+0.000049904) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800EB1A, fn3 = 0x801434E, fn4 = 0x800598C, address = 0x20018E20, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:05.783667619] (+0.000026858) 0 heap_free: { pid = 6, address = 0x20018E20, real_alloc = 56, user_alloc = 48 }
+[01:00:05.783704857] (+0.000037238) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800E420, fn4 = 0x800598C, address = 0x20018E60, real_alloc = 216, user_alloc = 208, user_req = 192 }
+[01:00:06.018202666] (+0.234497809) 0 heap_free: { pid = 6, address = 0x20018E50, real_alloc = 24, user_alloc = 16 }
+[01:00:06.018257238] (+0.000054572) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800D1C6, fn3 = 0x801223C, fn4 = 0x800598C, address = 0x20018F60, real_alloc = 40, user_alloc = 32, user_req = 12 }
+[01:00:06.018306761] (+0.000049523) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800D1C6, fn3 = 0x8012252, fn4 = 0x800598C, address = 0x20018E50, real_alloc = 24, user_alloc = 16, user_req = 4 }
+[01:00:06.018358000] (+0.000051239) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800D1C6, fn3 = 0x8012260, fn4 = 0x800598C, address = 0x20018F80, real_alloc = 24, user_alloc = 16, user_req = 8 }
+[01:00:06.018420857] (+0.000062857) 0 heap_alloc: { pid = 6, fn1 = 0x80122A6, fn2 = 0x8011CE4, fn3 = 0x8022656, fn4 = 0x800598C, address = 0x20018F90, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:06.018486380] (+0.000065523) 0 heap_alloc: { pid = 6, fn1 = 0x80122A6, fn2 = 0x8011CE4, fn3 = 0x8022688, fn4 = 0x800598C, address = 0x20018FC0, real_alloc = 24, user_alloc = 16, user_req = 8 }
+[01:00:06.018557428] (+0.000071048) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800E2D2, fn3 = 0x801434E, fn4 = 0x800598C, address = 0x20018FD0, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:06.018632571] (+0.000075143) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x80208F6, fn3 = 0x8011AA2, fn4 = 0x800598C, address = 0x20019000, real_alloc = 40, user_alloc = 32, user_req = 20 }
+[01:00:06.018662571] (+0.000030000) 0 heap_free: { pid = 6, address = 0x20018FD0, real_alloc = 56, user_alloc = 48 }
+[01:00:06.018712666] (+0.000050095) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x800EB1A, fn3 = 0x801434E, fn4 = 0x800598C, address = 0x20018FD0, real_alloc = 56, user_alloc = 48, user_req = 36 }
+[01:00:06.018734952] (+0.000022286) 0 heap_free: { pid = 6, address = 0x20018FD0, real_alloc = 56, user_alloc = 48 }
+[01:00:06.018774380] (+0.000039428) 0 heap_alloc: { pid = 6, fn1 = 0x0, fn2 = 0x0, fn3 = 0x800E420, fn4 = 0x800598C, address = 0x20019020, real_alloc = 216, user_alloc = 208, user_req = 192 }
+[01:00:06.018836000] (+0.000061620) 0 heap_alloc: { pid = 6, fn1 = 0x800E466, fn2 = 0x80159F4, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x20018FD0, real_alloc = 40, user_alloc = 32, user_req = 12 }
+[01:00:06.018898952] (+0.000062952) 0 heap_alloc: { pid = 6, fn1 = 0x800E466, fn2 = 0x8015A0A, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x200190F0, real_alloc = 40, user_alloc = 32, user_req = 20 }
+[01:00:06.018971619] (+0.000072667) 0 heap_alloc: { pid = 6, fn1 = 0x8015AAC, fn2 = 0x802336C, fn3 = 0x801E160, fn4 = 0x800598C, address = 0x20019110, real_alloc = 56, user_alloc = 48, user_req = 28 }
+[01:00:06.103809333] (+0.084837714) 0 heap_free: { pid = 6, address = 0x20019000, real_alloc = 40, user_alloc = 32 }
+[01:00:09.495926095] (+3.392116762) 0 heap_free: { pid = 6, address = 0x200190F0, real_alloc = 40, user_alloc = 32 }
+[01:00:09.519690666] (+0.023764571) 0 heap_free: { pid = 6, address = 0x20019110, real_alloc = 56, user_alloc = 48 }
+[01:00:09.519710666] (+0.000020000) 0 heap_free: { pid = 6, address = 0x20018FD0, real_alloc = 40, user_alloc = 32 }
+[01:00:09.519727238] (+0.000016572) 0 heap_free: { pid = 6, address = 0x20019020, real_alloc = 216, user_alloc = 208 }
+[01:00:09.545024761] (+0.025297523) 0 heap_free: { pid = 6, address = 0x20018E40, real_alloc = 24, user_alloc = 16 }
+[01:00:09.586586952] (+0.041562191) 0 heap_free: { pid = 6, address = 0x20018F30, real_alloc = 56, user_alloc = 48 }
+[01:00:09.586611428] (+0.000024476) 0 heap_free: { pid = 6, address = 0x20018E20, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586627714] (+0.000016286) 0 heap_free: { pid = 6, address = 0x20018E60, real_alloc = 216, user_alloc = 208 }
+[01:00:09.586649428] (+0.000021714) 0 heap_free: { pid = 6, address = 0x20018E50, real_alloc = 24, user_alloc = 16 }
+[01:00:09.586669619] (+0.000020191) 0 heap_free: { pid = 6, address = 0x20018F80, real_alloc = 24, user_alloc = 16 }
+[01:00:09.586690190] (+0.000020571) 0 heap_free: { pid = 6, address = 0x20018F60, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586710666] (+0.000020476) 0 heap_free: { pid = 6, address = 0x1000FFD0, real_alloc = 24, user_alloc = 16 }
+[01:00:09.586726952] (+0.000016286) 0 heap_free: { pid = 6, address = 0x20018DB0, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586745142] (+0.000018190) 0 heap_free: { pid = 6, address = 0x20018D90, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586766000] (+0.000020858) 0 heap_free: { pid = 6, address = 0x20018DF0, real_alloc = 56, user_alloc = 48 }
+[01:00:09.586786380] (+0.000020380) 0 heap_free: { pid = 6, address = 0x20017480, real_alloc = 24, user_alloc = 16 }
+[01:00:09.586802380] (+0.000016000) 0 heap_free: { pid = 6, address = 0x20018D70, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586818380] (+0.000016000) 0 heap_free: { pid = 6, address = 0x20018D50, real_alloc = 40, user_alloc = 32 }
+[01:00:09.586834380] (+0.000016000) 0 heap_free: { pid = 6, address = 0x20018D10, real_alloc = 72, user_alloc = 64 }
+[01:00:09.586856095] (+0.000021715) 0 measurement_stop:
+[01:00:09.732658476] (+0.145802381) 0 measurement_stop:
+[01:00:09.733354857] (+0.000696381) 0 heap_free: { pid = 6, address = 0x20018320, real_alloc = 88, user_alloc = 80 }
+[01:00:09.733378190] (+0.000023333) 0 heap_free: { pid = 6, address = 0x20018370, real_alloc = 88, user_alloc = 80 }
+[01:00:09.733395714] (+0.000017524) 0 heap_free: { pid = 6, address = 0x200183C0, real_alloc = 88, user_alloc = 80 }
+[01:00:09.733420095] (+0.000024381) 0 heap_free: { pid = 3, address = 0x10000010, real_alloc = 65016, user_alloc = 65008 }
+[01:00:09.733437333] (+0.000017238) 0 heap_free: { pid = 3, address = 0x20018030, real_alloc = 264, user_alloc = 256 }
+[01:00:09.733476857] (+0.000039524) 0 heap_free: { pid = 5, address = 0x20018130, real_alloc = 504, user_alloc = 496 }

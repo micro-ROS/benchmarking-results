@@ -1,0 +1,24 @@
+
+***************** Bandwidth TX ***************** 
+
+Avg for eth is 18012.976894100913 kbps
+Max for eth is 68437.5 kbps
+Min for eth is 3575.038896423193 kbps
+
+***************** Bandwidth RX *****************
+
+Avg for eth is 14518.11474672164 kbps
+Max for eth is 15575.677022761256 kbps
+Min for eth is 14266.36637550598 kbps
+
+***************** Latency TX *****************
+
+Avg for eth is 49.220370370370375 micro-seconds
+Max for eth is 120.191 micro-seconds
+Min for eth is 19.523 micro-seconds
+
+***************** Latency RX *****************
+
+Avg for eth is 32.3269 micro-seconds
+Max for eth is 33.333 micro-seconds
+Min for eth is 30.095 micro-seconds
