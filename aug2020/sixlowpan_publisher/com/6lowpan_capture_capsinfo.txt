@@ -1,0 +1,33 @@
+File name:           6lowpan_capture.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  IEEE 802.15.4 Wireless PAN with FCS not present
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   165
+File size:           18 kB
+Data size:           12 kB
+Capture duration:    3,149839932 seconds
+First packet time:   2020-09-01 10:54:53,235224868
+Last packet time:    2020-09-01 10:54:56,385064800
+Data byte rate:      3 896 bytes/s
+Data bit rate:       31 kbps
+Average packet size: 74,38 bytes
+Average packet rate: 52 packets/s
+SHA256:              2acd46fae5a9234c51efdb07dda6a52b30ed40b3dfce0a11fffa655bb32eafda
+RIPEMD160:           4e25bbae2af34668adb33349d97a71dc6598376c
+SHA1:                c904d05cea5b3241db45bc678179baa63ca00c9c
+Strict time order:   True
+Capture hardware:    Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz (with SSE4.2)
+Capture oper-sys:    Linux 5.8.5-050805-generic
+Capture application: Dumpcap (Wireshark) 2.6.10 (Git v2.6.10 packaged as 2.6.10-1~ubuntu18.04.0)
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = wpan0
+                     Encapsulation = IEEE 802.15.4 Wireless PAN with FCS not present (127 - wpan-nofcs)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Operating system = Linux 5.8.5-050805-generic
+                     Number of stat entries = 1
+                     Number of packets = 165

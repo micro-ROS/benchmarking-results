@@ -1,0 +1,7 @@
+AUTHOR (email): Alexandre Malki	(amalki@piap.pl)
+DATE (YYYY/MM/DD HH:mm:ss):  2020/08/28 15:12:31
+DESCRIPTION: Power measurement for 6lowpan:
+
+ * channel 1 in+
+ * channel 2 in-
+ * channel m delta

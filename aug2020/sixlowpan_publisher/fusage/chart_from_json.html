@@ -1,0 +1,77 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    // Load the Visualization API and the piechart package.
+    google.charts.load('current', { 'packages': ['corechart'] });
+    //google.charts.load('current', { 'packages': ['bar'] });
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var jsonData = [];
+      jsonData.push(['Function', 'Hits']);
+      $.getJSON('20200831_11_30_1598952626_fusage_analysis_hits.json', function (data) {
+        //console.log(data);
+        //jsonData = JSON.parse(data)
+        for (const [key, value] of Object.entries(data)) {
+          console.log(`key: ${key}, value: ${value['hits']}`)
+          if (value['hits'] > 20) {
+            jsonData.push([key, value['hits']])
+          }
+        }
+        console.log("Total elements:" + jsonData.length)
+        console.log(jsonData)
+
+        var dataDisp = google.visualization.arrayToDataTable(jsonData);
+
+        var options = {
+          title: 'Functions usage',
+          isStacked: true,
+          height: 900,
+          chartArea: {
+            height: 400,
+            top: 100,
+          },
+          hAxis: {
+            title: 'Function name',
+            titleTextStyle: {
+              //color: '#FF0000',
+            },
+            slantedText: true,
+            slantedTextAngle: 90,
+            textStyle:  {fontSize: 12,italic: true}
+
+          },
+          vAxis: {
+            title: 'Hits'
+          }
+        };
+
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('columnchart'));
+        google.visualization.events.addListener(chart, 'ready', function () {
+          var imgUri = chart.getImageURI();
+          // do something with the image URI, like:
+          window.open(imgUri);
+        });
+        chart.draw(dataDisp, options);
+
+      });
+    }
+
+  </script>
+</head>
+
+<body>
+  <!--Div that will hold the pie chart-->
+  <div id="columnchart" style="height: 800px;"></div>
+</body>
+
+</html>

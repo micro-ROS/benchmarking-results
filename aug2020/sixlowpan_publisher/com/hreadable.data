@@ -1,0 +1,322 @@
+[01:00:00.000244190] (+?.?????????) 0 thread_create: { thread_id = 2, name = "hpwork" }
+[01:00:00.000518857] (+0.000274667) 0 thread_create: { thread_id = 3, name = "lpwork" }
+[01:00:00.004049142] (+0.003530285) 0 thread_create: { thread_id = 5, name = "init" }
+[01:00:00.004476000] (+0.000426858) 0 thread_create: { thread_id = 4294939125, name = "" }
+[01:00:01.014063809] (+1.009587809) 0 thread_create: { thread_id = 6, name = "uros_6lowpan" }
+[01:00:01.014351904] (+0.000288095) 0 thread_create: { thread_id = 7, name = "popen" }
+[01:00:01.015142380] (+0.000790476) 0 thread_create: { thread_id = 8, name = "popen" }
+[01:00:01.015630380] (+0.000488000) 0 thread_create: { thread_id = 9, name = "i8sak" }
+[01:00:01.018210761] (+0.002580381) 0 thread_create: { thread_id = 10, name = "popen" }
+[01:00:01.018685714] (+0.000474953) 0 thread_create: { thread_id = 11, name = "i8sak" }
+[01:00:01.019663333] (+0.000977619) 0 thread_create: { thread_id = 12, name = "popen" }
+[01:00:01.020146380] (+0.000483047) 0 thread_create: { thread_id = 13, name = "i8sak" }
+[01:00:01.020869142] (+0.000722762) 0 thread_create: { thread_id = 14, name = "popen" }
+[01:00:01.021326952] (+0.000457810) 0 thread_create: { thread_id = 15, name = "i8sak" }
+[01:00:01.022048476] (+0.000721524) 0 thread_create: { thread_id = 20, name = "popen" }
+[01:00:01.022522571] (+0.000474095) 0 thread_create: { thread_id = 23, name = "i8sak" }
+[01:00:01.023264380] (+0.000741809) 0 thread_create: { thread_id = 24, name = "popen" }
+[01:00:01.023716000] (+0.000451620) 0 thread_create: { thread_id = 25, name = "i8sak" }
+[01:00:01.024476857] (+0.000760857) 0 thread_create: { thread_id = 26, name = "i8sak_wpan" }
+[01:00:01.025070761] (+0.000593904) 0 measurement_start:
+[01:00:01.025349619] (+0.000278858) 0 thread_create: { thread_id = 28, name = "popen" }
+[01:00:01.026058380] (+0.000708761) 0 thread_create: { thread_id = 29, name = "popen" }
+[01:00:01.026755047] (+0.000696667) 0 thread_create: { thread_id = 30, name = "popen" }
+[01:00:01.968191714] (+0.941436667) 0 measurement_start:
+[01:00:01.968622190] (+0.000430476) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:01.969812285] (+0.001190095) 0 com_finish: { interface = "radio", pkt_size = 24, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:01.981226952] (+0.011414667) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:01.981772285] (+0.000545333) 0 com_finish: { interface = "radio", pkt_size = 54, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:01.982329333] (+0.000557048) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:01.983722000] (+0.001392667) 0 com_finish: { interface = "radio", pkt_size = 108, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:01.999547904] (+0.015825904) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.000557428] (+0.001009524) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.001647333] (+0.001089905) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.002150857] (+0.000503524) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.002569238] (+0.000418381) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.002819809] (+0.000250571) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.003077047] (+0.000257238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.003490190] (+0.000413143) 0 com_finish: { interface = "radio", pkt_size = 124, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.003543904] (+0.000053714) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.003899523] (+0.000355619) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.019050571] (+0.015151048) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.019552666] (+0.000502095) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.034312666] (+0.014760000) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.034807238] (+0.000494572) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.049934000] (+0.015126762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.050218095] (+0.000284095) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.064482000] (+0.014263905) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.064985047] (+0.000503047) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.065403238] (+0.000418191) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.065653904] (+0.000250666) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.065943142] (+0.000289238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.066510857] (+0.000567715) 0 com_finish: { interface = "radio", pkt_size = 388, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.066564380] (+0.000053523) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.066919904] (+0.000355524) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.067261333] (+0.000341429) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.067756095] (+0.000494762) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.087788000] (+0.020031905) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.088282571] (+0.000494571) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.099547428] (+0.011264857) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.099797809] (+0.000250381) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.119547714] (+0.019749905) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.119798190] (+0.000250476) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.139547714] (+0.019749524) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.139798190] (+0.000250476) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.145770857] (+0.005972667) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.146274476] (+0.000503619) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.146692857] (+0.000418381) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.146943523] (+0.000250666) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.146996285] (+0.000052762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.147351809] (+0.000355524) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.148573904] (+0.001222095) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.149077142] (+0.000503238) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.149495809] (+0.000418667) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.149749523] (+0.000253714) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.150128761] (+0.000379238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.150554380] (+0.000425619) 0 com_finish: { interface = "radio", pkt_size = 132, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.155110857] (+0.004556477) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.155605428] (+0.000494571) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.188942190] (+0.033336762) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.189437047] (+0.000494857) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.209548000] (+0.020110953) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.209798571] (+0.000250571) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.219732761] (+0.009934190) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.220227523] (+0.000494762) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.238819428] (+0.018591905) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.239314285] (+0.000494857) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.259548000] (+0.020233715) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.259798476] (+0.000250476) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.266666761] (+0.006868285) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.267170000] (+0.000503239) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.267588571] (+0.000418571) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.267839238] (+0.000250667) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.268135904] (+0.000296666) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.268704095] (+0.000568191) 0 com_finish: { interface = "radio", pkt_size = 400, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.268757809] (+0.000053714) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.269113523] (+0.000355714) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.279547619] (+0.010434096) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.279798000] (+0.000250381) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.284729047] (+0.004931047) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.285223714] (+0.000494667) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.304632761] (+0.019409047) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.305127523] (+0.000494762) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.305510952] (+0.000383429) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.305761238] (+0.000250286) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.305814761] (+0.000053523) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.306170190] (+0.000355429) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.319548000] (+0.013377810) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.319798476] (+0.000250476) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.320486000] (+0.000687524) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.320980857] (+0.000494857) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.371096285] (+0.050115428) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.371599428] (+0.000503143) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.371984666] (+0.000385238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.372235238] (+0.000250572) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.372287714] (+0.000052476) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.372643142] (+0.000355428) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.376141619] (+0.003498477) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.376636285] (+0.000494666) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.387975619] (+0.011339334) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.388470380] (+0.000494761) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.399724571] (+0.011254191) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.400219428] (+0.000494857) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.414178666] (+0.013959238) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.414673428] (+0.000494762) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.435185333] (+0.020511905) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.435680095] (+0.000494762) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.461225523] (+0.025545428) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.461728761] (+0.000503238) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:02.462160857] (+0.000432096) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:02.462411238] (+0.000250381) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.469542666] (+2.007131428) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.470578000] (+0.001035334) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.470686095] (+0.000108095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.471050857] (+0.000364762) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.471156380] (+0.000105523) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.471525619] (+0.000369239) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.471630285] (+0.000104666) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.471991333] (+0.000361048) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.472096285] (+0.000104952) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.472462571] (+0.000366286) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.472571523] (+0.000108952) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.472932000] (+0.000360477) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.473035809] (+0.000103809) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.473400190] (+0.000364381) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.473504952] (+0.000104762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.473874285] (+0.000369333) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.473979047] (+0.000104762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.474339714] (+0.000360667) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.474444857] (+0.000105143) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.474809809] (+0.000364952) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.474918952] (+0.000109143) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.476211904] (+0.001292952) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.476319714] (+0.000107810) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.476713619] (+0.000393905) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.476825714] (+0.000112095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.477185714] (+0.000360000) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.477292666] (+0.000106952) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.477657238] (+0.000364572) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.477769238] (+0.000112000) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.478132095] (+0.000362857) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.478239714] (+0.000107619) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.478603809] (+0.000364095) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.478712380] (+0.000108571) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.479081619] (+0.000369239) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.479189333] (+0.000107714) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.481360857] (+0.002171524) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.481469523] (+0.000108666) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.487152571] (+0.005683048) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.487260285] (+0.000107714) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.492565523] (+0.005305238) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.492676761] (+0.000111238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.499270190] (+0.006593429) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.499380952] (+0.000110762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.506293904] (+0.006912952) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.506402476] (+0.000108572) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.511397904] (+0.004995428) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.511505619] (+0.000107715) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.517781809] (+0.006276190) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.517892000] (+0.000110191) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.522885904] (+0.004993904) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.522996000] (+0.000110096) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.529270857] (+0.006274857) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.529382000] (+0.000111143) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.536614476] (+0.007232476) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.536724571] (+0.000110095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.542678571] (+0.005954000) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.542789904] (+0.000111333) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.547783142] (+0.004993238) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.547894000] (+0.000110858) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.552886476] (+0.004992476) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.552997142] (+0.000110666) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.558631142] (+0.005634000) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.558741904] (+0.000110762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.563735523] (+0.004993619) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.563845523] (+0.000110000) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.570758857] (+0.006913334) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.570867333] (+0.000108476) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.577143809] (+0.006276476) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.577253809] (+0.000110000) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.584167142] (+0.006913333) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.584275619] (+0.000108477) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.589271714] (+0.004996095) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.589383238] (+0.000111524) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.595976095] (+0.006592857) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.596086190] (+0.000110095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.602359428] (+0.006273238) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.602470857] (+0.000111429) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.608104095] (+0.005633238) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.608215523] (+0.000111428) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.614807428] (+0.006591905) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.614918190] (+0.000110762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.620235523] (+0.005317333) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.620344095] (+0.000108572) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.626296761] (+0.005952666) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.626408095] (+0.000111334) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.631399809] (+0.004991714) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.631511047] (+0.000111238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.638424761] (+0.006913714) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.638534761] (+0.000110000) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.643528761] (+0.004994000) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.643637333] (+0.000108572) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.649916857] (+0.006279524) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.650028095] (+0.000111238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.656937333] (+0.006909238) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.657045904] (+0.000108571) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.663640380] (+0.006594476) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.663752000] (+0.000111620) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.670985047] (+0.007233047) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.671095142] (+0.000110095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.676409714] (+0.005314572) 0 com_finish: { interface = "radio", pkt_size = 16, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.676588666] (+0.000178952) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.683433238] (+0.006844572) 0 com_finish: { interface = "radio", pkt_size = 20, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.699547714] (+0.016114476) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.699798857] (+0.000251143) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.720100285] (+0.020301428) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.720385142] (+0.000284857) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.739547714] (+0.019162572) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.739798857] (+0.000251143) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.759547714] (+0.019748857) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.759798857] (+0.000251143) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.779547714] (+0.019748857) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.779798857] (+0.000251143) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.805744095] (+0.025945238) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.806248000] (+0.000503905) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.806666857] (+0.000418857) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.806918190] (+0.000251333) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.806971523] (+0.000053333) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.807327809] (+0.000356286) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.809838380] (+0.002510571) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.810342380] (+0.000504000) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.810761428] (+0.000419048) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.811012476] (+0.000251048) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.811072666] (+0.000060190) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.811428666] (+0.000356000) 0 com_finish: { interface = "radio", pkt_size = 12, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.815731047] (+0.004302381) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.816226380] (+0.000495333) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.832631333] (+0.016404953) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.833126761] (+0.000495428) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.849547238] (+0.016420477) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.849798571] (+0.000251333) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.856848380] (+0.007049809) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.857343809] (+0.000495429) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.869547619] (+0.012203810) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.869798571] (+0.000250952) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.874882952] (+0.005084381) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.875378380] (+0.000495428) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.889547619] (+0.014169239) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.889798571] (+0.000250952) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.909547619] (+0.019749048) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.909798571] (+0.000250952) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.925177904] (+0.015379333) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.925673428] (+0.000495524) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.939547619] (+0.013874191) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.939798571] (+0.000250952) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:04.950750952] (+0.010952381) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.951246285] (+0.000495333) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.967201238] (+0.015954953) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:04.967696666] (+0.000495428) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.012388190] (+0.044691524) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.012883619] (+0.000495429) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.023120857] (+0.010237238) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.023616190] (+0.000495333) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.085359047] (+0.061742857) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.085854476] (+0.000495429) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.086266380] (+0.000411904) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.087276476] (+0.001010096) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.097640095] (+0.010363619) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.098144000] (+0.000503905) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.098562857] (+0.000418857) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.099577142] (+0.001014285) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.099668285] (+0.000091143) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.100024476] (+0.000356191) 0 com_finish: { interface = "radio", pkt_size = 20, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.116013428] (+0.015988952) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.116517238] (+0.000503810) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.116936571] (+0.000419333) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.117946476] (+0.001009905) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.117999809] (+0.000053333) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.118355809] (+0.000356000) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.120069809] (+0.001714000) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.120573619] (+0.000503810) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.120993047] (+0.000419428) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.121244190] (+0.000251143) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.121304285] (+0.000060095) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.121660476] (+0.000356191) 0 com_finish: { interface = "radio", pkt_size = 12, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.121714761] (+0.000054285) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.122070857] (+0.000356096) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.139547619] (+0.017476762) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.139798857] (+0.000251238) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.160398095] (+0.020599238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.160682761] (+0.000284666) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.175660380] (+0.014977619) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.176164285] (+0.000503905) 0 com_finish: { interface = "radio", pkt_size = 49, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.176583523] (+0.000419238) 0 com_start: { interface = "radio", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.176834857] (+0.000251334) 0 com_finish: { interface = "radio", pkt_size = 13, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.177005523] (+0.000170666) 0 measurement_stop:
+[01:00:05.195453047] (+0.018447524) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.195948476] (+0.000495429) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.203598666] (+0.007650190) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.204094190] (+0.000495524) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.211796380] (+0.007702190) 0 com_start: { interface = "radio", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.212291809] (+0.000495429) 0 com_finish: { interface = "radio", pkt_size = 48, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.279507904] (+0.067216095) 0 measurement_stop:
