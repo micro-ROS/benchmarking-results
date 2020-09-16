@@ -1,7 +1,7 @@
 ***********  TX Latency  in micro-sec ***********
-Avg for radio is 2184.4498952380955
-Max for radio is 7233.047
-Min for radio is 250.286
+Avg for radio is 218.44498952380955
+Max for radio is 723.3047 /** on the spi line */
+Min for radio is 25.0286
 
 ***********  RX Latency in micro-sec  ***********
 Avg for radio is 499.22377500000005
