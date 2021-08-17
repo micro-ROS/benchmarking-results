@@ -1,0 +1,452 @@
+[01:00:00.000230000] (+?.?????????) 0 thread_create: { thread_id = 2, name = "hpwork" }
+[01:00:00.000354190] (+0.000124190) 0 thread_create: { thread_id = 3, name = "lpwork" }
+[01:00:00.000578571] (+0.000224381) 0 thread_create: { thread_id = 5, name = "init" }
+[01:00:01.702355047] (+1.701776476) 0 thread_create: { thread_id = 6, name = "netinit" }
+[01:00:05.001438761] (+3.299083714) 0 thread_create: { thread_id = 7, name = "microros" }
+[01:00:05.001476571] (+0.000037810) 0 measurement_start:
+[01:00:05.002008095] (+0.000531524) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.002062000] (+0.000053905) 0 com_finish: { interface = "eth", pkt_size = 42, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:05.002355333] (+0.000293333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:05.002373333] (+0.000018000) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.011500095] (+1.009126762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.011555238] (+0.000055143) 0 com_finish: { interface = "eth", pkt_size = 66, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.014266857] (+0.002711619) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.014300857] (+0.000034000) 0 com_finish: { interface = "eth", pkt_size = 61, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.014585047] (+0.000284190) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.014639333] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 94, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.020386190] (+0.005746857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.020419809] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.020784952] (+0.000365143) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.020818952] (+0.000034000) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.020860285] (+0.000041333) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.020910285] (+0.000050000) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.020930476] (+0.000020191) 0 com_finish: { interface = "eth", pkt_size = 55, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.021583523] (+0.000653047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.021617142] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.021632095] (+0.000014953) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.021663809] (+0.000031714) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.021938857] (+0.000275048) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.021979809] (+0.000040952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.022000666] (+0.000020857) 0 com_finish: { interface = "eth", pkt_size = 126, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.022670190] (+0.000669524) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.022703904] (+0.000033714) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.022718761] (+0.000014857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.022750476] (+0.000031715) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.023031428] (+0.000280952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.023073523] (+0.000042095) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.023094476] (+0.000020953) 0 com_finish: { interface = "eth", pkt_size = 55, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.024194761] (+0.001100285) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.024228380] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.024243333] (+0.000014953) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.024275047] (+0.000031714) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.024735904] (+0.000460857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.024760285] (+0.000024381) 0 com_finish: { interface = "eth", pkt_size = 66, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.131555619] (+0.106795334) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.131610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 55, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.132026380] (+0.000416380) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.132059904] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.231555619] (+0.099495715) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.231610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 78, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.232213333] (+0.000603333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.232246761] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.331555619] (+0.099308858) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.331610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 55, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.332037619] (+0.000427619) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.332071047] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.431555809] (+0.099484762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.431609809] (+0.000054000) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.432307333] (+0.000697524) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.432340857] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.531553809] (+0.099212952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.531609523] (+0.000055714) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.532254476] (+0.000644953) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.532288000] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.631555714] (+0.099267714) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.631610190] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.632458285] (+0.000848095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.632491809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.731556000] (+0.099064191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.731610380] (+0.000054380) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.732292190] (+0.000681810) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.732325714] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.831555619] (+0.099229905) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.831609904] (+0.000054285) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.832305809] (+0.000695905) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.832339333] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.931555809] (+0.099216476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.931610095] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:06.932314952] (+0.000704857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:06.932348476] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.033704285] (+0.101355809) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.033759904] (+0.000055619) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.034070761] (+0.000310857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.034104285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.131555619] (+0.097451334) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.131610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.132337238] (+0.000727238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.132370761] (+0.000033523) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.231555619] (+0.099184858) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.231610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.232273142] (+0.000663142) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.232306666] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.331555619] (+0.099248953) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.331610000] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.332253428] (+0.000643428) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.332286952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.431555809] (+0.099268857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.431610190] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.432270952] (+0.000660762) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.432304380] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.533704476] (+0.101400096) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.533760190] (+0.000055714) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.534324000] (+0.000563810) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.534357428] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.631555714] (+0.097198286) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.631610190] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.632345428] (+0.000735238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.632378952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.731556000] (+0.099177048) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.731610380] (+0.000054380) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.732360666] (+0.000750286) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.732394190] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.831555619] (+0.099161429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.831609904] (+0.000054285) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.832265047] (+0.000655143) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.832298666] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.931555809] (+0.099257143) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.931610190] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:07.932319904] (+0.000709714) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:07.932353428] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.033704476] (+0.101351048) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.033760000] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.034149714] (+0.000389714) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.034183238] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.131555714] (+0.097372476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.131610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.132328095] (+0.000718095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.132361523] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.231555714] (+0.099194191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.231610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.232285428] (+0.000675428) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.232319047] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.331555714] (+0.099236667) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.331610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.332303142] (+0.000693142) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.332336666] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.431555904] (+0.099219238) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.431610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.432292095] (+0.000681810) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.432325619] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.533704571] (+0.101378952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.533760285] (+0.000055714) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.534079619] (+0.000319334) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.534113047] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.631555809] (+0.097442762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.631610190] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.632296666] (+0.000686476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.632330190] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.731556000] (+0.099225810) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.731610476] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.732298285] (+0.000687809) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.732331809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.831555714] (+0.099223905) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.831610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.832382190] (+0.000772095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.832415714] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.931555904] (+0.099140190) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.931610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:08.932280285] (+0.000670000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:08.932313809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.033704761] (+0.101390952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.033760285] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.034212761] (+0.000452476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.034246285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.131555714] (+0.097309429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.131610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.132198857] (+0.000588857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.132232380] (+0.000033523) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.231555714] (+0.099323334) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.231610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.232412761] (+0.000802761) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.232446285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.331555714] (+0.099109429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.331610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.332366571] (+0.000756571) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.332400095] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.431555904] (+0.099155809) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.431610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.432449142] (+0.000838952) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.432482666] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.533704761] (+0.101222095) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.533760476] (+0.000055715) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.534227523] (+0.000467047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.534261047] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.631555809] (+0.097294762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.632360285] (+0.000750000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.632393714] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.731556000] (+0.099162286) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.731610476] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.732301904] (+0.000691428) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.732335428] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.831555714] (+0.099220286) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.831610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.832419047] (+0.000809047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.832452666] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.931555904] (+0.099103238) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.931610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:09.932415428] (+0.000805143) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:09.932448952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.033704476] (+0.101255524) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.033760095] (+0.000055619) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.034306571] (+0.000546476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.034340095] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.131555714] (+0.097215619) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.131610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.132454476] (+0.000844476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.132488000] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.231555714] (+0.099067714) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.231610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.232352571] (+0.000742571) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.232386000] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.331555714] (+0.099169714) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.331610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.332330380] (+0.000720380) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.332363904] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.431555904] (+0.099192000) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.431610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.432305523] (+0.000695333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.432339047] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.533704761] (+0.101365714) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.533760476] (+0.000055715) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.534310857] (+0.000550381) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.534344380] (+0.000033523) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.631555809] (+0.097211429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.632204285] (+0.000594000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.632237809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.731556000] (+0.099318191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.731610476] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.732349333] (+0.000738857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.732382857] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.831555714] (+0.099172857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.831610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.832349047] (+0.000739047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.832382571] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.931555904] (+0.099173333) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.931610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:10.932349238] (+0.000739048) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:10.932382666] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.033704761] (+0.101322095) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.033760285] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.034400380] (+0.000640095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.034433904] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.131555714] (+0.097121810) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.131610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.132287809] (+0.000677809) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.132321333] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.203462857] (+0.071141524) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.203481047] (+0.000018190) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.203497142] (+0.000016095) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.203520190] (+0.000023048) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.231555714] (+0.028035524) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.231610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.232359809] (+0.000749714) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.232393238] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.331555714] (+0.099162476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.331610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.332238285] (+0.000628190) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.332271809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.431555904] (+0.099284095) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.431610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 42, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.432382285] (+0.000772000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.432415809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.534131238] (+0.101715429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.534186952] (+0.000055714) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.534765904] (+0.000578952) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.534799428] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.631555809] (+0.096756381) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.632176476] (+0.000566191) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.632210000] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.731556000] (+0.099346000) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.731610476] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.732283714] (+0.000673238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.732317238] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.831555714] (+0.099238476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.831610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.832355047] (+0.000745047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.832388571] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.931555904] (+0.099167333) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.931610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:11.932315809] (+0.000705619) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:11.932349333] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.033704761] (+0.101355428) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.033760380] (+0.000055619) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.034490000] (+0.000729620) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.034523523] (+0.000033523) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.131555714] (+0.097032191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.131610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.132244952] (+0.000634857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.132278380] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.231555714] (+0.099277334) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.231610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.232350476] (+0.000740381) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.232384000] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.331555714] (+0.099171714) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.331610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.332299333] (+0.000689238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.332332857] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.431555904] (+0.099223047) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.431610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.432313904] (+0.000703619) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.432347333] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.533704761] (+0.101357428) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.533760476] (+0.000055715) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.534364285] (+0.000603809) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.534397809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.631555809] (+0.097158000) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.632335714] (+0.000725429) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.632369238] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.731556095] (+0.099186857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.731610571] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.732441904] (+0.000831333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.732475523] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.831555714] (+0.099080191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.831610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.832360857] (+0.000750762) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.832394285] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.931555904] (+0.099161619) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.931610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:12.932304761] (+0.000694571) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:12.932338285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.033704571] (+0.101366286) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.033760095] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.034349904] (+0.000589809) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.034383428] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.131555714] (+0.097172286) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.131610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.132209333] (+0.000599238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.132242761] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.231555714] (+0.099312953) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.231610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.232076190] (+0.000466095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.232109714] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.331555714] (+0.099446000) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.331610000] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.332284000] (+0.000674000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.332317428] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.431555904] (+0.099238476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.431610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.432305047] (+0.000694762) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.432338571] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.533704761] (+0.101366190) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.533760476] (+0.000055715) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.534373523] (+0.000613047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.534407047] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.631555809] (+0.097148762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.632242285] (+0.000632000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.632275809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.731556000] (+0.099280191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.731610571] (+0.000054571) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.732253809] (+0.000643238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.732287333] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.831556095] (+0.099268762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.831610476] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.832296285] (+0.000685809) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.832329809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.931555904] (+0.099226095) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.931610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:13.932288761] (+0.000678476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:13.932322285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.033704761] (+0.101382476) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.033760380] (+0.000055619) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.034367142] (+0.000606762) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.034400666] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.131555714] (+0.097155048) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.131610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.132408000] (+0.000797905) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.132441523] (+0.000033523) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.231555714] (+0.099114191) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.231610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.232197523] (+0.000587428) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.232230952] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.331555714] (+0.099324762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.331610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.332329142] (+0.000719047) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.332362666] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.431555904] (+0.099193238) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.431610190] (+0.000054286) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.432320285] (+0.000710095) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.432353809] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.533704761] (+0.101350952) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.533760476] (+0.000055715) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.534379333] (+0.000618857) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.534412761] (+0.000033428) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.631555809] (+0.097143048) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.631610285] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.632425333] (+0.000815048) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.632458857] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.731556095] (+0.099097238) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.731610571] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.732204095] (+0.000593524) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.732237619] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.831593142] (+0.099355523) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.831647523] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.832485523] (+0.000838000) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.832519047] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.931555904] (+0.099036857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.931610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:14.932473428] (+0.000863143) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:14.932506952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.033704571] (+0.101197619) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.033760095] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.034491428] (+0.000731333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.034524857] (+0.000033429) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.131555714] (+0.097030857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.131610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.132405428] (+0.000795333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.132438952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.231555714] (+0.099116762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.231610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.232197428] (+0.000587333) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.232230952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.331555714] (+0.099324762) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.331610190] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.332450571] (+0.000840381) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.332484095] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.431555904] (+0.099071809) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.431610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.432325523] (+0.000715238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.432359142] (+0.000033619) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.533704761] (+0.101345619) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.533760571] (+0.000055810) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.534369047] (+0.000608476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.534402571] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.631555809] (+0.097153238) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.631610380] (+0.000054571) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.632289809] (+0.000679429) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.632323333] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.731556000] (+0.099232667) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.731610476] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.731973714] (+0.000363238) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.732007238] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.831556095] (+0.099548857) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.831610571] (+0.000054476) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.832374095] (+0.000763524) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.832407619] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.931555904] (+0.099148285) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.931610285] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:15.932251428] (+0.000641143) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:15.932284952] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:16.033704761] (+0.101419809) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:16.033760285] (+0.000055524) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:16.034414761] (+0.000654476) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:16.034448285] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:16.131555714] (+0.097107429) 0 com_start: { interface = "eth", recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:16.131610095] (+0.000054381) 0 com_finish: { interface = "eth", pkt_size = 58, recvorsend = ( "COM_TX" : container = 0 ) }
+[01:00:16.132291047] (+0.000680952) 0 com_start: { interface = "eth", recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:16.132324571] (+0.000033524) 0 com_finish: { interface = "eth", pkt_size = 60, recvorsend = ( "COM_RX" : container = 1 ) }
+[01:00:17.141416952] (+1.009092381) 0 measurement_stop:
