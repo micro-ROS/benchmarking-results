@@ -1,0 +1,20 @@
+
+***********  TX Bandwith in kbps     **********
+Avg for radio is 15.591879374858078
+Max for radio is 339.1052272586346
+Min for radio is 7.444699284772851
+
+***********  RX Bandwith in kbps      ***********
+Avg for radio is 76.03947984782864
+Max for radio is 77.48275406078506
+Min for radio is 75.08924893587808
+
+***********  TX Latency  in micro-sec ***********
+Avg for radio is 1300.827290909091
+Max for radio is 1679.047
+Min for radio is 137.238
+
+***********  RX Latency in micro-sec  ***********
+Avg for radio is 494.0917454545455
+Max for radio is 544.476
+Min for radio is 493.047
