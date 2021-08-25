@@ -1,0 +1,7 @@
+AUTHOR (email): Alexandre Malki	(amalki@piap.pl)
+DATE (YYYY/MM/DD HH:mm:ss):  2021/08/25 20:33:23
+DESCRIPTION: Power measurement for eternet:
+
+ * channel 1 in+
+ * channel 2 in-
+ * channel m delta
