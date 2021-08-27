@@ -1,0 +1,20 @@
+
+***********  TX Bandwith in kbps     **********
+Avg for uart is 59.04314703568811
+Max for uart is 73.57095771729918
+Min for uart is 37.28583019138071
+
+***********  RX Bandwith in kbps      ***********
+Avg for uart is 59.706575676073456
+Max for uart is 60.31886967263743
+Min for uart is 58.176334797825604
+
+***********  TX Latency  in micro-sec ***********
+Avg for uart is 13.359920265780731
+Max for uart is 21.238
+Min for uart is 12.762
+
+***********  RX Latency in micro-sec  ***********
+Avg for uart is 13.085183006535948
+Max for uart is 13.429
+Min for uart is 12.952

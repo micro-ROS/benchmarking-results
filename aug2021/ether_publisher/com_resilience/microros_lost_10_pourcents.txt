@@ -1,0 +1,527 @@
+AUTHOR (email): Alexandre Malki	(amalki@piap.pl)
+DATE (YYYY/MM/DD HH:mm:ss):  2021/08/25 17:11:12
+DESCRIPTION: Output from the publisher application with 10% lost packets
+
+##################### Output from the Agent:
+
+Press CTRL+C to exit
+[1598881727.373269] info     | UDPv4AgentLinux.cpp | init                     | running...             | port: 8888
+[1598881727.373547] info     | Root.cpp           | set_verbose_level        | logger setup           | verbose_level: 6
+[1598881762.223051] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x00000000, len: 24, data: 
+0000: 80 00 00 00 00 01 10 00 58 52 43 45 01 00 01 0F 23 25 4E 57 81 00 FC 01
+[1598881762.223236] info     | Root.cpp           | create_client            | create                 | client_key: 0x23254E57, session_id: 0x81
+[1598881762.223308] info     | SessionManager.hpp | establish_session        | session established    | client_key: 0x589647447, address: 192.168.10.2:260
+[1598881762.223449] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 19, data: 
+0000: 81 00 00 00 04 01 0B 00 00 00 58 52 43 45 01 00 01 0F 00
+[1598881762.223866] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 108, data: 
+0000: 81 80 00 00 01 05 62 00 00 0A 00 01 01 02 00 00 54 00 00 00 3C 64 64 73 3E 3C 70 61 72 74 69 63
+0020: 69 70 61 6E 74 3E 3C 72 74 70 73 3E 3C 6E 61 6D 65 3E 69 6E 74 33 32 5F 70 75 62 6C 69 73 68 65
+0040: 72 5F 72 63 6C 3C 2F 6E 61 6D 65 3E 3C 2F 72 74 70 73 3E 3C 2F 70 61 72 74 69 63 69 70 61 6E 74
+0060: 3E 3C 2F 64 64 73 3E 00 00 00 00 00
+[1598881762.229309] debug    | ProxyClient.cpp    | create_participant       | participant created    | client_key: 0x23254E57, participant_id: 0x000(1)
+[1598881762.229500] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 00 00 05 01 06 00 00 0A 00 01 00 00
+[1598881762.229549] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 01 00 00 00 80
+[1598881762.230109] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 01 00 00 00 80
+[1598881762.230151] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 124, data: 
+0000: 81 80 01 00 01 05 73 00 00 0B 00 02 02 02 00 00 65 00 00 00 3C 64 64 73 3E 3C 74 6F 70 69 63 3E
+0020: 3C 6E 61 6D 65 3E 72 74 2F 72 6F 73 6F 75 74 3C 2F 6E 61 6D 65 3E 3C 64 61 74 61 54 79 70 65 3E
+0040: 72 63 6C 5F 69 6E 74 65 72 66 61 63 65 73 3A 3A 6D 73 67 3A 3A 64 64 73 5F 3A 3A 4C 6F 67 5F 3C
+0060: 2F 64 61 74 61 54 79 70 65 3E 3C 2F 74 6F 70 69 63 3E 3C 2F 64 64 73 3E 00 00 01 00
+[1598881762.230489] debug    | ProxyClient.cpp    | create_topic             | topic created          | client_key: 0x23254E57, topic_id: 0x000(2), participant_id: 0x000(1)
+[1598881762.230590] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 01 00 05 01 06 00 00 0B 00 02 00 00
+[1598881762.230649] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 02 00 00 00 80
+[1598881762.231246] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 02 00 00 00 80
+[1598881762.231347] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 388, data: 
+0000: 81 80 02 00 01 05 25 00 00 0C 00 03 03 02 00 00 17 00 00 00 3C 70 75 62 6C 69 73 68 65 72 20 6E
+0020: 61 6D 65 3D 22 30 5F 33 22 3E 00 00 01 00 00 00 01 05 4E 01 00 0D 00 05 05 02 00 00 40 01 00 00
+0040: 3C 64 64 73 3E 3C 64 61 74 61 5F 77 72 69 74 65 72 3E 3C 68 69 73 74 6F 72 79 4D 65 6D 6F 72 79
+0060: 50 6F 6C 69 63 79 3E 50 52 45 41 4C 4C 4F 43 41 54 45 44 5F 57 49 54 48 5F 52 45 41 4C 4C 4F 43
+0080: 3C 2F 68 69 73 74 6F 72 79 4D 65 6D 6F 72 79 50 6F 6C 69 63 79 3E 3C 71 6F 73 3E 3C 72 65 6C 69
+00A0: 61 62 69 6C 69 74 79 3E 3C 6B 69 6E 64 3E 52 45 4C 49 41 42 4C 45 3C 2F 6B 69 6E 64 3E 3C 2F 72
+00C0: 65 6C 69 61 62 69 6C 69 74 79 3E 3C 2F 71 6F 73 3E 3C 74 6F 70 69 63 3E 3C 6B 69 6E 64 3E 4E 4F
+00E0: 5F 4B 45 59 3C 2F 6B 69 6E 64 3E 3C 6E 61 6D 65 3E 72 74 2F 72 6F 73 6F 75 74 3C 2F 6E 61 6D 65
+0100: 3E 3C 64 61 74 61 54 79 70 65 3E 72 63 6C 5F 69 6E 74 65 72 66 61 63 65 73 3A 3A 6D 73 67 3A 3A
+0120: 64 64 73 5F 3A 3A 4C 6F 67 5F 3C 2F 64 61 74 61 54 79 70 65 3E 3C 68 69 73 74 6F 72 79 51 6F 73
+0140: 3E 3C 6B 69 6E 64 3E 4B 45 45 50 5F 41 4C 4C 3C 2F 6B 69 6E 64 3E 3C 2F 68 69 73 74 6F 72 79 51
+0160: 6F 73 3E 3C 2F 74 6F 70 69 63 3E 3C 2F 64 61 74 61 5F 77 72 69 74 65 72 3E 3C 2F 64 64 73 3E 00
+0180: 00 03 00 00
+[1598881762.231437] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0B 01 05 00 01 00 02 00 80
+[1598881762.231471] debug    | ProxyClient.cpp    | create_publisher         | publisher created      | client_key: 0x23254E57, publisher_id: 0x000(3), participant_id: 0x000(1)
+[1598881762.231555] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 02 00 05 01 06 00 00 0C 00 03 00 00
+[1598881762.231839] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 03 00 00 00 80
+[1598881762.232072] debug    | ProxyClient.cpp    | create_datawriter        | datawriter created     | client_key: 0x23254E57, datawriter_id: 0x000(5), publisher_id: 0x000(3)
+[1598881762.232139] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 03 00 05 01 06 00 00 0D 00 05 00 00
+[1598881762.232167] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 03 00 00 00 80
+[1598881762.232196] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 03 00 00 00 80
+[1598881762.232851] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 04 00 00 00 80
+[1598881762.232890] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 132, data: 
+0000: 81 80 03 00 01 05 7B 00 00 0E 00 12 02 02 00 00 6D 00 00 00 3C 64 64 73 3E 3C 74 6F 70 69 63 3E
+0020: 3C 6E 61 6D 65 3E 72 74 2F 73 74 64 5F 6D 73 67 73 5F 6D 73 67 5F 49 6E 74 33 32 3C 2F 6E 61 6D
+0040: 65 3E 3C 64 61 74 61 54 79 70 65 3E 73 74 64 5F 6D 73 67 73 3A 3A 6D 73 67 3A 3A 64 64 73 5F 3A
+0060: 3A 49 6E 74 33 32 5F 3C 2F 64 61 74 61 54 79 70 65 3E 3C 2F 74 6F 70 69 63 3E 3C 2F 64 64 73 3E
+0080: 00 00 01 00
+[1598881762.232993] debug    | ProxyClient.cpp    | create_topic             | topic created          | client_key: 0x23254E57, topic_id: 0x001(2), participant_id: 0x000(1)
+[1598881762.233078] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 04 00 05 01 06 00 00 0E 00 12 00 00
+[1598881762.233112] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 04 00 00 00 80
+[1598881762.233700] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 05 00 00 00 80
+[1598881762.233821] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 396, data: 
+0000: 81 80 04 00 01 05 25 00 00 0F 00 13 03 02 00 00 17 00 00 00 3C 70 75 62 6C 69 73 68 65 72 20 6E
+0020: 61 6D 65 3D 22 31 5F 33 22 3E 00 00 01 6E 61 6D 01 05 56 01 00 10 00 15 05 02 62 6C 48 01 00 00
+0040: 3C 64 64 73 3E 3C 64 61 74 61 5F 77 72 69 74 65 72 3E 3C 68 69 73 74 6F 72 79 4D 65 6D 6F 72 79
+0060: 50 6F 6C 69 63 79 3E 50 52 45 41 4C 4C 4F 43 41 54 45 44 5F 57 49 54 48 5F 52 45 41 4C 4C 4F 43
+0080: 3C 2F 68 69 73 74 6F 72 79 4D 65 6D 6F 72 79 50 6F 6C 69 63 79 3E 3C 71 6F 73 3E 3C 72 65 6C 69
+00A0: 61 62 69 6C 69 74 79 3E 3C 6B 69 6E 64 3E 52 45 4C 49 41 42 4C 45 3C 2F 6B 69 6E 64 3E 3C 2F 72
+00C0: 65 6C 69 61 62 69 6C 69 74 79 3E 3C 2F 71 6F 73 3E 3C 74 6F 70 69 63 3E 3C 6B 69 6E 64 3E 4E 4F
+00E0: 5F 4B 45 59 3C 2F 6B 69 6E 64 3E 3C 6E 61 6D 65 3E 72 74 2F 73 74 64 5F 6D 73 67 73 5F 6D 73 67
+0100: 5F 49 6E 74 33 32 3C 2F 6E 61 6D 65 3E 3C 64 61 74 61 54 79 70 65 3E 73 74 64 5F 6D 73 67 73 3A
+0120: 3A 6D 73 67 3A 3A 64 64 73 5F 3A 3A 49 6E 74 33 32 5F 3C 2F 64 61 74 61 54 79 70 65 3E 3C 68 69
+0140: 73 74 6F 72 79 51 6F 73 3E 3C 6B 69 6E 64 3E 4B 45 45 50 5F 41 4C 4C 3C 2F 6B 69 6E 64 3E 3C 2F
+0160: 68 69 73 74 6F 72 79 51 6F 73 3E 3C 2F 74 6F 70 69 63 3E 3C 2F 64 61 74 61 5F 77 72 69 74 65 72
+0180: 3E 3C 2F 64 64 73 3E 00 00 13 00 00
+[1598881762.233939] debug    | ProxyClient.cpp    | create_publisher         | publisher created      | client_key: 0x23254E57, publisher_id: 0x001(3), participant_id: 0x000(1)
+[1598881762.234009] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 05 00 05 01 06 00 00 0F 00 13 00 00
+[1598881762.234257] debug    | ProxyClient.cpp    | create_datawriter        | datawriter created     | client_key: 0x23254E57, datawriter_id: 0x001(5), publisher_id: 0x001(3)
+[1598881762.234288] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 06 00 00 00 80
+[1598881762.234299] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 06 00 05 01 06 00 00 10 00 15 00 00
+[1598881762.234368] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 05 00 00 00 80
+[1598881762.234572] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1598881764.240525] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 05 00 07 01 08 00 00 11 00 15 00 00 00 00
+[1598881764.240592] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0B 01 05 00 04 00 05 00 80
+[1598881764.240682] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 00 00 00 00
+[1598881764.240809] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 06 00 00 00 80
+[1598881764.240838] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 06 00 00 00 80
+[1598881764.241248] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 06 00 07 01 08 00 00 12 00 15 01 00 00 00
+[1598881764.241324] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 01 00 00 00
+[1598881764.241426] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1598881764.241764] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 07 00 07 01 08 00 00 13 00 15 02 00 00 00
+[1598881764.241835] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 02 00 00 00
+[1598881764.241916] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 08 00 00 00 80
+[1598881764.242259] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 08 00 07 01 08 00 00 14 00 15 03 00 00 00
+[1598881764.242351] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 03 00 00 00
+[1598881764.242431] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 09 00 00 00 80
+[1598881764.242767] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 09 00 07 01 08 00 00 15 00 15 04 00 00 00
+[1598881764.242829] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 04 00 00 00
+[1598881764.242936] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0A 00 00 00 80
+[1598881764.243270] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0A 00 07 01 08 00 00 16 00 15 05 00 00 00
+[1598881764.243337] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 05 00 00 00
+[1598881764.243460] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0B 00 00 00 80
+[1598881764.243800] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0B 00 07 01 08 00 00 17 00 15 06 00 00 00
+[1598881764.243861] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 06 00 00 00
+[1598881764.243949] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0C 00 00 00 80
+[1598881764.244287] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0C 00 07 01 08 00 00 18 00 15 07 00 00 00
+[1598881764.244352] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 07 00 00 00
+[1598881764.244449] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0D 00 00 00 80
+[1598881764.244769] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0D 00 07 01 08 00 00 19 00 15 08 00 00 00
+[1598881764.244815] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 08 00 00 00
+[1598881764.244891] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0E 00 00 00 80
+[1598881764.260466] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0B 01 05 00 0D 00 0D 00 80
+[1598881764.260615] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0E 00 00 00 80
+[1598881764.260980] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0E 00 07 01 08 00 00 1A 00 15 09 00 00 00
+[1598881764.261054] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 09 00 00 00
+[1598881764.261139] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0F 00 00 00 80
+[1598881764.261489] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 0F 00 07 01 08 00 00 1B 00 15 0A 00 00 00
+[1598881764.261551] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0A 00 00 00
+[1598881764.261633] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 10 00 00 00 80
+[1598881764.261969] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 10 00 07 01 08 00 00 1C 00 15 0B 00 00 00
+[1598881764.262023] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0B 00 00 00
+[1598881764.262094] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 11 00 00 00 80
+[1598881764.262429] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 11 00 07 01 08 00 00 1D 00 15 0C 00 00 00
+[1598881764.262470] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0C 00 00 00
+[1598881764.262531] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 12 00 00 00 80
+[1598881764.262857] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 12 00 07 01 08 00 00 1E 00 15 0D 00 00 00
+[1598881764.262902] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0D 00 00 00
+[1598881764.262959] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 13 00 00 00 80
+[1598881764.263293] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 13 00 07 01 08 00 00 1F 00 15 0E 00 00 00
+[1598881764.263335] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0E 00 00 00
+[1598881764.263389] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 14 00 00 00 80
+[1598881764.263717] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 14 00 07 01 08 00 00 20 00 15 0F 00 00 00
+[1598881764.263759] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 0F 00 00 00
+[1598881764.263829] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 15 00 00 00 80
+[1598881764.264151] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 15 00 07 01 08 00 00 21 00 15 10 00 00 00
+[1598881764.264182] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 10 00 00 00
+[1598881764.264235] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 16 00 00 00 80
+[1598881764.264606] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 16 00 07 01 08 00 00 22 00 15 11 00 00 00
+[1598881764.264657] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 11 00 00 00
+[1598881764.264735] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 17 00 00 00 80
+[1598881764.264996] trace    | FastEntities.cpp   | onParticipantDiscovery   | matched                | entity_id: 0.0.1.c1, guid_prefix: 1.f.70.b7.a7.0.0.0.a.0.0.0
+[1598881764.265050] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 17 00 07 01 08 00 00 23 00 15 12 00 00 00
+[1598881764.265084] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 12 00 00 00
+[1598881764.265163] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 18 00 00 00 80
+[1598881764.265477] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 18 00 07 01 08 00 00 24 00 15 13 00 00 00
+[1598881764.265529] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 13 00 00 00
+[1598881764.265628] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 19 00 00 00 80
+[1598881764.265937] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 19 00 07 01 08 00 00 25 00 15 14 00 00 00
+[1598881764.265985] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 14 00 00 00
+[1598881764.266069] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1A 00 00 00 80
+[1598881764.266377] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1A 00 07 01 08 00 00 26 00 15 15 00 00 00
+[1598881764.266425] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 15 00 00 00
+[1598881764.266506] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1B 00 00 00 80
+[1598881764.266821] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1B 00 07 01 08 00 00 27 00 15 16 00 00 00
+[1598881764.266869] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 16 00 00 00
+[1598881764.266928] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1C 00 00 00 80
+[1598881764.267247] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1C 00 07 01 08 00 00 28 00 15 17 00 00 00
+[1598881764.267291] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 17 00 00 00
+[1598881764.267365] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1D 00 00 00 80
+[1598881764.267684] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1D 00 07 01 08 00 00 29 00 15 18 00 00 00
+[1598881764.267736] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 18 00 00 00
+[1598881764.267821] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1E 00 00 00 80
+[1598881764.268138] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1E 00 07 01 08 00 00 2A 00 15 19 00 00 00
+[1598881764.268202] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 19 00 00 00
+[1598881764.268320] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1F 00 00 00 80
+[1598881764.268627] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 1F 00 07 01 08 00 00 2B 00 15 1A 00 00 00
+[1598881764.268684] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1A 00 00 00
+[1598881764.268755] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 20 00 00 00 80
+[1598881764.269072] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 20 00 07 01 08 00 00 2C 00 15 1B 00 00 00
+[1598881764.269112] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1B 00 00 00
+[1598881764.269174] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 21 00 00 00 80
+[1598881764.269491] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 21 00 07 01 08 00 00 2D 00 15 1C 00 00 00
+[1598881764.269528] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1C 00 00 00
+[1598881764.269595] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 22 00 00 00 80
+[1598881764.269904] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 22 00 07 01 08 00 00 2E 00 15 1D 00 00 00
+[1598881764.269952] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1D 00 00 00
+[1598881764.270021] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 23 00 00 00 80
+[1598881764.280487] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0B 01 05 00 22 00 22 00 80
+[1598881764.280701] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 23 00 00 00 80
+[1598881764.281017] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 23 00 07 01 08 00 00 2F 00 15 1E 00 00 00
+[1598881764.281081] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1E 00 00 00
+[1598881764.281154] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 24 00 00 00 80
+[1598881764.281498] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 24 00 07 01 08 00 00 30 00 15 1F 00 00 00
+[1598881764.281551] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 1F 00 00 00
+[1598881764.281615] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 25 00 00 00 80
+[1598881764.281932] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 25 00 07 01 08 00 00 31 00 15 20 00 00 00
+[1598881764.281971] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 20 00 00 00
+[1598881764.282026] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 26 00 00 00 80
+[1598881764.282373] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 26 00 07 01 08 00 00 32 00 15 21 00 00 00
+[1598881764.282412] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 21 00 00 00
+[1598881764.282476] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 27 00 00 00 80
+[1598881764.282801] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 27 00 07 01 08 00 00 33 00 15 22 00 00 00
+[1598881764.282838] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 22 00 00 00
+[1598881764.282898] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 28 00 00 00 80
+[1598881764.283221] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 28 00 07 01 08 00 00 34 00 15 23 00 00 00
+[1598881764.283257] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 23 00 00 00
+[1598881764.283360] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 29 00 00 00 80
+[1598881764.283684] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 29 00 07 01 08 00 00 35 00 15 24 00 00 00
+[1598881764.283743] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 24 00 00 00
+[1598881764.283839] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2A 00 00 00 80
+[1598881764.284162] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2A 00 07 01 08 00 00 36 00 15 25 00 00 00
+[1598881764.284219] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 25 00 00 00
+[1598881764.284291] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2B 00 00 00 80
+[1598881764.284620] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2B 00 07 01 08 00 00 37 00 15 26 00 00 00
+[1598881764.284681] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 26 00 00 00
+[1598881764.284748] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2C 00 00 00 80
+[1598881764.285077] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2C 00 07 01 08 00 00 38 00 15 27 00 00 00
+[1598881764.285130] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 27 00 00 00
+[1598881764.285198] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2D 00 00 00 80
+[1598881764.285524] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2D 00 07 01 08 00 00 39 00 15 28 00 00 00
+[1598881764.285571] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 28 00 00 00
+[1598881764.285627] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2E 00 00 00 80
+[1598881764.285952] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2E 00 07 01 08 00 00 3A 00 15 29 00 00 00
+[1598881764.286000] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 29 00 00 00
+[1598881764.286074] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 2F 00 00 00 80
+[1598881764.286395] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 2F 00 07 01 08 00 00 3B 00 15 2A 00 00 00
+[1598881764.286464] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2A 00 00 00
+[1598881764.286528] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 30 00 00 00 80
+[1598881764.300447] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0B 01 05 00 2F 00 2F 00 80
+[1598881764.300593] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 30 00 00 00 80
+[1598881764.300921] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 30 00 07 01 08 00 00 3C 00 15 2B 00 00 00
+[1598881764.301002] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2B 00 00 00
+[1598881764.301088] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 31 00 00 00 80
+[1598881764.301435] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 31 00 07 01 08 00 00 3D 00 15 2C 00 00 00
+[1598881764.301509] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2C 00 00 00
+[1598881764.301601] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 32 00 00 00 80
+[1598881764.301935] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 32 00 07 01 08 00 00 3E 00 15 2D 00 00 00
+[1598881764.302005] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2D 00 00 00
+[1598881764.302078] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 33 00 00 00 80
+[1598881764.302412] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 33 00 07 01 08 00 00 3F 00 15 2E 00 00 00
+[1598881764.302479] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2E 00 00 00
+[1598881764.302541] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 34 00 00 00 80
+[1598881764.302878] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 34 00 07 01 08 00 00 40 00 15 2F 00 00 00
+[1598881764.302945] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 2F 00 00 00
+[1598881764.303006] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 35 00 00 00 80
+[1598881764.303337] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 35 00 07 01 08 00 00 41 00 15 30 00 00 00
+[1598881764.303423] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 30 00 00 00
+[1598881764.303493] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 36 00 00 00 80
+[1598881764.303818] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 16, data: 
+0000: 81 80 36 00 07 01 08 00 00 42 00 15 31 00 00 00
+[1598881764.303909] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 4, data: 
+0000: 31 00 00 00
+[1598881764.303994] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 37 00 00 00 80
+[1598881764.304396] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 20, data: 
+0000: 81 80 37 00 03 01 04 00 00 43 00 15 03 01 04 00 00 44 00 13
+[1598881764.304745] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0001
+[1598881764.304795] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0001
+[1598881764.304818] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 07 00 05 01 06 00 00 43 00 15 00 00
+[1598881764.304846] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 08 00 05 01 06 00 00 44 00 13 00 00
+[1598881764.304862] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 38 00 00 00 80
+[1598881764.305332] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 08 00 00 00 80
+[1598881764.305366] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 09 00 00 00 80
+[1598881764.305400] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 12, data: 
+0000: 81 80 38 00 03 01 04 00 00 45 00 12
+[1598881764.305443] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0001
+[1598881764.305500] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 09 00 05 01 06 00 00 45 00 12 00 00
+[1598881764.305518] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 39 00 00 00 80
+[1598881764.305946] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0A 00 00 00 80
+[1598881764.305980] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 20, data: 
+0000: 81 80 39 00 03 01 04 00 00 46 00 05 03 01 04 00 00 47 00 03
+[1598881764.306181] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0000
+[1598881764.306217] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0000
+[1598881764.306247] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 0A 00 05 01 06 00 00 46 00 05 00 00
+[1598881764.306271] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 0B 00 05 01 06 00 00 47 00 03 00 00
+[1598881764.306282] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 3A 00 00 00 80
+[1598881764.306766] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0B 00 00 00 80
+[1598881764.306814] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0C 00 00 00 80
+[1598881764.306828] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 12, data: 
+0000: 81 80 3A 00 03 01 04 00 00 48 00 02
+[1598881764.306881] debug    | ProxyClient.cpp    | delete_object_unlock     | object deleted         | client_key: 0x23254E57, object_id: 0x0000
+[1598881764.306953] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 14, data: 
+0000: 81 80 0C 00 05 01 06 00 00 48 00 02 00 00
+[1598881764.306976] debug    | UDPv4AgentLinux.cpp | send_message             | [** <<UDP>> **]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 3B 00 00 00 80
+[1598881764.307259] debug    | UDPv4AgentLinux.cpp | recv_message             | [==>> UDP <<==]        | client_key: 0x23254E57, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 0D 00 00 00 80
+^C[1598881771.797069] info     | UDPv4AgentLinux.cpp | fini                     | server stopped         | port: 8888
+
+##################### Output from the NuttX console:
+UDP mode => ip: 192.168.10.1 - port: 8888
+Sent: '0'
+Sent: '1'
+Sent: '2'
+Sent: '3'
+Sent: '4'
+Sent: '5'
+Sent: '6'
+Sent: '7'
+Sent: '8'
+Sent: '9'
+Sent: '10'
+Sent: '11'
+Sent: '12'
+Sent: '13'
+Sent: '14'
+Sent: '15'
+Sent: '16'
+Sent: '17'
+Sent: '18'
+Sent: '19'
+Sent: '20'
+Sent: '21'
+Sent: '22'
+Sent: '23'
+Sent: '24'
+Sent: '25'
+Sent: '26'
+Sent: '27'
+Sent: '28'
+Sent: '29'
+Sent: '30'
+Sent: '31'
+Sent: '32'
+Sent: '33'
+Sent: '34'
+Sent: '35'
+Sent: '36'
+Sent: '37'
+Sent: '38'
+Sent: '39'
+Sent: '40'
+Sent: '41'
+Sent: '42'
+Sent: '43'
+Sent: '44'
+Sent: '45'
+Sent: '46'
+Sent: '47'
+Sent: '48'
+Sent: '49'
+TOTAL sent: 50
+
